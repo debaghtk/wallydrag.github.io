@@ -1,0 +1,92 @@
+---
+layout: post
+title: "TDD and my first week at codeignition"
+date: 2015-05-26 10:41:53 +0530
+comments: true
+categories: [Ruby, Rspec, Test Driven Development, TDD, codeignition]
+---
+
+Making that switch from college to company is not that easy. Almost
+everyone finds it hard initially to adjust. And I was no exception.
+
+Having done an internship at [Codeignition] (http://codeignition.co), I
+somewhat knew what to expect. My time as an intern was very fruitful for
+me on a personal level. The care that .......
+
+Our first task assigned to us at was to learn Ruby. Fair enough, Ruby is
+good to understand, very well written and documented. Majority of the
+web-development today takes place on Ruby and its popular framework
+Rails, you might have heard about it. Keep in mind, Ruby is a
+programming language while Rails is framework for Ruby. It's more
+commonly known as *Ruby on Rails.* There are also other frameworks for
+Ruby available, like Sinatra, Merb, Nitro and Camping.
+
+Enough with the Ruby, because we are here to discuss something else. and
+that is **Test Driven Development.**
+
+## Test Driven Development
+
+You might have heard of the above term in your college course *software
+engineering.* But majority of the audience are limited to just that.
+Hardly anyone has any idea how the above term works or how it is
+implemented in our code. So enough with the chit-chat, time to get our
+hand's dirty now.
+
+#### So, what the heck is testing?
+
+You must have obviouly written some code before, if you are still
+reading this. I have an idea to a certain extent, that how majority of
+the people at college check their code. They write their code, run it,
+check it manually by inputting some test cases. Testing more or less
+ does the same thing, but it automates that process for you. It can do
+ on so many levels, but let's just stick to understand that it
+ automates that process for you, just to make life easier.
+
+
+#### That needs me to write more code, why should I do testing?
+
+Yes, that needs effort from you, to write more code. But trust me, when
+I say that it has its advantages. We will realise that a bit later, so
+don't just close your browser tab now, just keep on reading.
+
+Take one example, suppose you maintain a somewhat large codebase on
+github and people constantly send you pull requests. There are many of
+them, so it's hard for you to sit down, and understand them one at a
+time, so how will you do it. Don't worry, if you have listened to my
+advice, you can always run those tests that you have written and see
+whether the modified functions does the job or not.
+
+Yup, no need to glance at someone else's code and still you can find out
+whether it is what you need or not.
+
+One more thing, testing manually by test cases is impossible for a large
+number of test cases. So, we tend to restrict ourselves to a small
+number, and assume that it is written well enough if it passes the test
+for those certain cases.
+
+Let me just take you through one example.
+
+Here's a code I wrote years ago, to compute the factorial of a number in
+C -
+
+```
+int factorial(a)
+  if (a==1 || a==0)
+    return 1;
+  else
+  int fac;
+  fac = a * factorial(a-1);
+  return fac;
+```
+
+Now when I tested it for values such as 0,1,2,3,4,5,6 it gave the
+correct and desired answers and I was convinced that my code is correct.
+Entering this as the solution and I realised it wasn't. It didn't give
+the right answer for 100! (brainstorm here buddy). If I would have wrote
+a test, it would have checked for many number of inputs and also would
+give me a surity that, yes my code is correct.
+
+#### Good enough, but how do I do it?
+
+Good question, and I would like to give examples on ruby, on how to
+write test 
