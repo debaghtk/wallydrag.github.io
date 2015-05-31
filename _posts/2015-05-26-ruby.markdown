@@ -85,23 +85,23 @@ Refactor**, shortly known as RGR.
 
 Just read on to know what RGR means exactly:
 
--Understand the requirements of the story, work item, or feature that
+1. Understand the requirements of the story, work item, or feature that
 you are working on.
 
--Red: Create a test and make it fail.Imagine how the new code should be
+2. Red: Create a test and make it fail.Imagine how the new code should be
 called and write the test as if the code already existed. Run the test.
 It should fail. This is a calibration measure to ensure that your test
 is calling the correct code and that the code is not working by accident.
 This is a meaningful failure, and you expect it to fail.
 
--Green: Make the test pass. Write the production code to make the test pass.
+3. Green: Make the test pass. Write the production code to make the test pass.
 If you've written the code so that the test passes as intended, you have
 done you job. If new functionality is still needed, then another test is
 needed. Make this one test pass and continue. When the test passes, you might
 want to run all tests up to this point to build confidence that everything
 else is still working.
 
--Refactor: Change the code to improve the design while ensuring that all
+4. Refactor: Change the code to improve the design while ensuring that all
 tests still pass.
 
-Repeat the cycle. Each cycle should be very short.
+Repeat the cycle 2-3-4. Each cycle should be very short.
