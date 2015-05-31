@@ -38,11 +38,11 @@ or not is testing.
 The process of testing that we applied on the above case has certain
 pitfalls
 
-*You had to write the entire program, before you can test. Imagine
+-You had to write the entire program, before you can test. Imagine
   writing thousand of lines of code for a program, but with the
   uncertainity that whatever you written may not be correct.
 
-* Once you have written your big program, it would be hard for you to
+-Once you have written your big program, it would be hard for you to
   debug if a error occurs or your program doesn't run properly. This way
   of testing won't pinpoint that specific segment of code, which is
   causing the program to fail.
