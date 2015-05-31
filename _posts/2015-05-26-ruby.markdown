@@ -3,7 +3,7 @@ layout: post
 title: "Test Driven Development for dumb minds"
 date: 2015-05-26 10:41:53 +0530
 comments: true
-categories: [Ruby, Rspec, Test Driven Development, TDD]
+categories: [Test Driven Development, TDD]
 ---
 
 The following blog post discusses Test Driven Development and aims for
