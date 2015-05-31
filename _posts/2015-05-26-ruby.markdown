@@ -38,7 +38,7 @@ or not is testing.
 The process of testing that we applied on the above case has certain
 pitfalls
 
-* You had to write the entire program, before you can test. Imagine
+*You had to write the entire program, before you can test. Imagine
   writing thousand of lines of code for a program, but with the
   uncertainity that whatever you written may not be correct.
 
