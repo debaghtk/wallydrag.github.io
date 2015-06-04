@@ -2,7 +2,7 @@
 layout: post
 title: "Basic Principles of software design part 1   DRY"
 description: ""
-category: 
+category: [Software Design, Dry]
 tags: []
 ---
 {% include JB/setup %}
@@ -12,14 +12,15 @@ I am thinking of doing a series of blog posts this time, that
 underlines the importance of some of the very basic principles of
 software development. I personally felt that a programmer should be
 introduced to these principles as early as possible. These fundamentals
-may seem on the eye, but it takes a while to implement them in your code.
+may seem easy on the eye, but it takes a while to implement them
+in your code.
 
 Imagine a situation. Suppose you have a dog at your house, that needs
 milk every morning. You can't buy milk in bulk because storage is a problem.
-You can either go to the milk shop daily in the morning and buy milk, or
+So, you can either go to the milk shop daily in the morning and buy milk, or
 you can go just once and pay him for a subscription so he will send someone
-to your place to deliver the milk. Decide for yourself, which sounds more
-"Lazy".
+to your place to deliver the milk. So which sounds best to you, decide for
+yourself. *A good programmer for the second one*
 
 This is the first part of this series of blog posts and today, we are going
 to know about a software engineering principle called **DRY** - short form
