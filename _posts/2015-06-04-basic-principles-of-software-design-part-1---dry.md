@@ -1,10 +1,12 @@
 ---
 layout: post
-title: "Basic Principles of software development Part 1 -> DRY"
-date: 2015-05-26 10:41:53 +0530
-category:[DRY, Software design]
+title: "Basic Principles of software design part 1   DRY"
+description: ""
+category: 
+tags: []
 ---
 {% include JB/setup %}
+
 
 I am thinking of doing a series of blog posts this time, that
 underlines the importance of some of the very basic principles of
