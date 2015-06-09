@@ -2,7 +2,7 @@
 layout: post
 title: "Basic Principles of software design part 2- KISS"
 description: ""
-category:[KISS, software design]
+category: [KISS, software design]
 tags: []
 ---
 {% include JB/setup %}
