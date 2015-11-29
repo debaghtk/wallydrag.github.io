@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Devops tools - Ansible"
+title: "Devops tools we love - Ansible"
 description: "A basic introduction to Ansible"
 category: [configuration management, orchestration]
 ---
