@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 19 Jun 2016 01:54:02 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 09 Apr 2019 02:09:54 +0530</lastBuildDate>
     
 	<atom:link href="http://wallydrag.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2018 in Review</title>
+      <link>http://wallydrag.github.io/posts/2018-in-review/</link>
+      <pubDate>Tue, 09 Apr 2019 02:09:54 +0530</pubDate>
+      
+      <guid>http://wallydrag.github.io/posts/2018-in-review/</guid>
+      <description>Just when I was having a sound sleep, I abruptly woke up. There were fireworks outside. So many that they woke me up and I am in no way a light sleeper. It was 12:15 AM Jan 1 2018.
+I just missed new year countdown, and I was in Berlin. On a trip. All the plans of how amazing the new year would go in vain. But wait this was Berlin.</description>
+    </item>
     
     <item>
       <title>Irb vs Rails Console Whats the Difference</title>
