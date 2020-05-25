@@ -1,0 +1,707 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Posts on Debashish Ghatak</title>
+		<link>http://wallydrag.github.io/posts/</link>
+		<description>Recent content in Posts on Debashish Ghatak</description>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>en-us</language>
+		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+		<lastBuildDate>Sun, 19 Jun 2016 01:54:02 +0530</lastBuildDate>
+		<atom:link href="http://wallydrag.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Irb vs Rails Console Whats the Difference</title>
+			<link>http://wallydrag.github.io/posts/irb-vs-rails-console-whats-the-difference/</link>
+			<pubDate>Sun, 19 Jun 2016 01:54:02 +0530</pubDate>
+			
+			<guid>http://wallydrag.github.io/posts/irb-vs-rails-console-whats-the-difference/</guid>
+			<description>Every ruby/rails programmer knows how much valuable are friends like irb and rails console. I particularly am very fond of them, because any time I want to try something, I instantly use them. You also must be aware of bundle console and bundle exec irb.
+So, actually we have four such tools, but what is the difference between all four of them, if any.
+irb vs bundle exec irb vs bundle console vs rails console irb irb is just plain simple ruby console.</description>
+			<content type="html"><![CDATA[<p>Every ruby/rails programmer knows how much valuable are friends like
+<strong><code>irb</code></strong> and <strong><code>rails console</code></strong>. I particularly am very fond of them, because
+any time I want to try something, I instantly use them. You also must be
+aware of <strong><code>bundle console</code></strong> and <strong><code>bundle exec irb</code></strong>.</p>
+<p>So, actually we have four such tools, but what is the difference between
+all four of them, if any.</p>
+<h3 id="irb-vs-bundle-exec-irb-vs-bundle-console-vs-rails-console">irb vs bundle exec irb vs bundle console vs rails console</h3>
+<h4 id="irb">irb</h4>
+<p><strong><code>irb</code></strong> is just plain simple ruby console. What I mean by that is it just
+loads your core ruby libraries. It does not care whether you have
+gemfile lying around. So if you want to add anything else, you would
+need to use <strong><code>require</code></strong>.</p>
+<p>If you have a gem installed, you can require that gem inside irb. If you
+used <strong><code>bundler install</code></strong>, irb may not necessarily require the same version
+of that gem, since it ignores your gemfile and thus gemfile.lock as
+well.</p>
+<h4 id="bundle-exec-irb">bundle exec irb</h4>
+<p><strong><code>bundle exec irb</code></strong> comes to help, when you want to require the version of
+gem specified in your gemfile, something that irb cannot. <strong><code>bundle exec irb</code></strong> allows you to load the gems that your bundler knows about and only
+the gems that bundler knows about.</p>
+<h4 id="bundle-console">bundle console</h4>
+<p><strong><code>bundle console</code></strong> goes one step further <strong><code>bundle exec irb</code></strong>. The latter
+allows you to load gems specified in gemfile, but the former already
+requires them for you</p>
+<p><em>Tip - you can require all the gems in <strong><code>bundle exec irb</code></strong> if you do
+<strong><code>Bundler.require</code></strong> inside the console. All the gems will be required,
+except for those which aren&rsquo;t marked <strong><code>required: false</code></strong></em></p>
+<h4 id="rails-console">rails console</h4>
+<p><code>rails console</code> manages to jump one step ahead of <code>bundle console</code> by
+even loading the environment for you. So inside its console, you can
+play around with your rails app and your database connections work and
+everything works the way you would expect. Its a real life saver, trust
+me on that. This is most helpful when you are working on a rails app.</p>
+<p><em>Tip 2 - if you do <strong><code>require_relative config/environment.rb</code></strong> inside the
+console of <code>bundle console</code>, you would get the equivalent of <strong><code>rails console</code></strong></em></p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Continuous Delivery Continuous Deployment and Continuous Integration Whats the Difference</title>
+			<link>http://wallydrag.github.io/posts/continous-delivery-continous-deployment-and-continous-integration-whats-the-difference/</link>
+			<pubDate>Sun, 29 Nov 2015 01:53:52 +0530</pubDate>
+			
+			<guid>http://wallydrag.github.io/posts/continous-delivery-continous-deployment-and-continous-integration-whats-the-difference/</guid>
+			<description>Continuous delivery, continuous deployment and continuous integration are three words that you might be hearing regularly these days. I was initially confused as they seemed pretty similar to me and I bet half of the crowd are confused too. So I put on my superhero mask and googled the three :D
+Turns out, these three, while being really similar and related to each other as well, have pretty subtle differences.</description>
+			<content type="html"><![CDATA[<p>Continuous delivery, continuous deployment and continuous integration
+are three words that you might be hearing regularly these days. I was
+initially confused as they seemed pretty similar to me and I bet half of
+the crowd are confused too. So I put on my superhero mask and googled
+the three :D</p>
+<p>Turns out, these three, while being really similar and related to each
+other as well, have pretty subtle differences.</p>
+<p>Continuous integration is when say, a group of developers are working on
+a project. The rule of thumb is, you write a patch of code, you push it
+on the repo and the continuous integration software, whatever it may be,
+tells you whether that code is working correctly or not. It does so, by
+running automated builds on it. If the code is not right, the rest of the
+team is notified that they do not push their code right now, untill the
+bug is sorted out. CI requires you to write code in small amount and
+make atleast 2-3 commits daily. This approach leads significantly
+reduced integration problems and allows software to be made at a rapid
+speed. Since, everyone&rsquo;s code is integrated frequently, software
+deployment becomes less of a hassle. This is the first step in achieving
+a production-ready software as soon as the developers write some code.</p>
+<p>You just can&rsquo;t achieve continuous delivery and continuous deployment
+with continuous integration.</p>
+<p>Continuous delivery and continuous deployment have far more in common.
+And there is only one difference.</p>
+<p>Continuous deployment is when a change in code, is integrated and
+deployed continuously. So your continuous integration pipeline, when it
+runs after a commit and say the patch is right, it will be deployed
+automatically.</p>
+<p>Continuous delivery is exactly like continuous deployment, except for
+the the deployment is manual. The code at any time is production ready,
+so whenever your client demands the changes in code be deployed as soon
+as possible, you are always ready. You become superman for your client.</p>
+<!-- raw HTML omitted -->
+<p>image credits: <a href="http://blog.crisp.se/2013/02/05/yassalsundman/continuous-delivery-vs-continuous-deployment">Crisp&rsquo;s blog</a></p>
+<p>I hope this blog is informative enough to point those differences. I am
+attaching some links for further, if you just have some time to kill.</p>
+<ul>
+<li><a href="http://martinfowler.com/bliki/ContinuousDelivery.html">Martin Fowler&rsquo;s post on Continuous Delivery</a></li>
+<li><a href="http://www.martinfowler.com/articles/continuousIntegration.html">Martin Fowler&rsquo;s post on Continuous Integration</a></li>
+</ul>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Ansible</title>
+			<link>http://wallydrag.github.io/posts/ansible/</link>
+			<pubDate>Wed, 11 Nov 2015 01:53:33 +0530</pubDate>
+			
+			<guid>http://wallydrag.github.io/posts/ansible/</guid>
+			<description>Imagine a situation where you have two machines, where one is your workstation. Let&amp;rsquo;s call it the management node. The other one is a fresh ubuntu/centos machine which can be bare metal physical box or a cloud instance. Let&amp;rsquo;s say you have to configure this machine into a apache or nginx web server.
+One way to go about this would be to manually ssh into the machine, install the necessary packages and editing the configuration files.</description>
+			<content type="html"><![CDATA[<p>Imagine a situation where you have two machines, where one is your
+workstation. Let&rsquo;s call it the management node. The other one is a fresh
+ubuntu/centos machine which can be bare metal physical box or a cloud
+instance. Let&rsquo;s say you have to configure this machine into a apache or
+nginx web server.</p>
+<p>One way to go about this would be to manually ssh into the machine,
+install the necessary packages and editing the configuration files.</p>
+<p>This is a pretty common practice, but this manual work can quickly pile
+up if you have say tens or even hundreds of machines. Not only will this
+take up a lot of your precious time and energy, but the chances of
+making an error are there as well, as we are doing everything manually.
+Also there are always these scenarios when something important dies and
+you are not sure about how to recreate it quickly. And you again engage
+into such manual work which created this mess in the first place.</p>
+<h4 id="there-should-be-a-better-way-right">There should be a better way, right.</h4>
+<p>This is where configuration management tools come in to automate such
+tasks, saving you time and improving the overall process.</p>
+<p>Ansible is one such easy to use open source configuration management and
+orchestration tool, and is directly targeted at solving such problems.</p>
+<p>Let&rsquo;s just get started. Let&rsquo;s go back to our problem. We had many
+instances and everyone needed to configured in a different way.</p>
+<p>So what we need is Ansible installed on your machine/workstation. This
+is generally called the Ansible management node. Also you need an inventory
+file and playbook(s).</p>
+<h4 id="what-do-these-terms-inventory-file-and-playbooks-mean">What do these terms, inventory file and playbooks mean?</h4>
+<p>An inventory file is basically just a listing of host names or ip
+addresses of instances you want to configure. You can either use fqdn or
+just host names or even ip addresses, neat right. You can also group a
+number of instances under a heading, if those nodes are to configured
+the same way.</p>
+<pre><code>[load-balancer]
+haproxy-01.exam ple.com
+haproxy-02
+10.2.10.15
+
+[web-app]
+web-app-01.example.com
+web-app-02
+</code></pre>
+<p>Above is a sample host inventory file. Notice how can we group these
+instances together. So now while running a script, I can just mention
+the group <code>load-balancer</code> and it will run on all the three instances
+mentioned.</p>
+<p>Playbooks are configuration files, that outline tasks that are to be run
+against a host, that otherwise we would have performed manually. Playbooks
+are in written in yaml which makes it very easy to write and it also
+increases the readablity as its almost plain English. Below is an
+example playbook file.</p>
+<pre><code>---
+- hosts: web-app
+  sudo: yes
+
+  tasks:
+
+  - name: install nginx
+    apt: name=nginx state=installed update_cache=yes
+
+  - name: load config file
+    template: src=templates/nginx.conf.j2 dest=/etc/nginx/nginx.conf
+
+  handlers:
+
+  - name: restart nginx
+    service: name=nginx state=restarted
+</code></pre>
+<p>One can see the playbook is self-explanatory in itself, which is really
+great if we have multiple people on the same team.</p>
+<p>Now, when we run ansible-playbook shell command, along with other
+parameters, ansible will look into the hosts file for the machines,
+ssh-trusts into them and performs the tasks listed in the playbook.</p>
+<p>And that&rsquo;s it. It&rsquo;s really as easy as that.</p>
+<p>Below are some links for further reading.</p>
+<ul>
+<li><a href="http://docs.ansible.com/">Ansible Docs</a></li>
+</ul>
+]]></content>
+		</item>
+		
+		<item>
+			<title>SOLID</title>
+			<link>http://wallydrag.github.io/posts/solid/</link>
+			<pubDate>Tue, 07 Jul 2015 01:53:25 +0530</pubDate>
+			
+			<guid>http://wallydrag.github.io/posts/solid/</guid>
+			<description>Well Codeignition has added some new faces recently, and yeah I am one of them. I just passed out from IIT Jodhpur and got in here. And its been a huge learning experience since. Writing code is not the same now. Now I need to impose a great deal of thought on the structure of the code, and yes, SOLID has been a big help. So let&amp;rsquo;s get back to the basics and see what the fuss it is.</description>
+			<content type="html"><![CDATA[<p>Well Codeignition has added some new faces recently, and yeah I am one
+of them. I just passed out from IIT Jodhpur and got in here. And its
+been a huge learning experience since. Writing code is not the same now.
+Now I need to impose a great deal of thought on the structure of the
+code, and yes, SOLID has been a big help. So let&rsquo;s get back to the basics
+and see what the fuss it is.</p>
+<p>SOLID is an acronym for the five principles of software design, devised
+by Robert C. Martin or well known as Uncle Bob. What are these five
+principles, let&rsquo;s find out.</p>
+<h2 id="1-single-responsibility-priniciple--">1. Single Responsibility Priniciple -</h2>
+<p><em>A class should have only one reason to change, thus it should perform
+only one job.</em></p>
+<p>Probably the most intuitive and easy to understand, but hard in
+practice. Its application in code does wonders regarding simplicity and
+readability.</p>
+<p>Take a look at the code below, we have defined a class <code>person</code>, which has
+3 attributes. One of them is <code>email</code>, which needs to be verified.</p>
+<pre><code>class Person{
+  name: string ;
+  address: string;
+  email: string;
+  validate email(){
+    //validation logic
+  }
+}
+</code></pre>
+<p>One might want to verify the <code>email</code> in his own way, whether its syntax
+or domain or whatever. These changes do not affect the job of <code>person</code>
+class, since it is supposed to define a <code>person</code> object. If it is also
+validating the email, it is then violating SRP.</p>
+<p>So, we take the validation step outside, create a new class. That will
+leave us with <code>person</code> class with only one job - defining a person
+object. That should be it.</p>
+<pre><code>class Email{
+  email: string;
+  validate email(){
+    //validation logic
+  }
+}
+
+class Person{
+  name: string;
+  address: string;
+  email: Email;
+}
+</code></pre>
+<p>SRP has following advantages</p>
+<ul>
+<li>it makes refactoring really easy.</li>
+<li>imposes a great deal of structure on the code.</li>
+<li>naming things, which is actually tough, is made easier since classes
+now have one simple job, so one can name them accordingly which can
+make it clear what it does.</li>
+</ul>
+<p>Let&rsquo;s move on to the next one.</p>
+<h2 id="2-openclosed-principle">2. Open/Closed Principle</h2>
+<p><em>Modules should be open for extension, but closed for modification.</em></p>
+<p>Let&rsquo;s take a look at an example -</p>
+<pre><code>class Rectangle{
+  width;
+  height;
+}
+
+class AreaCalculator{
+  calculateArea(){
+    //calculate area
+  }
+}
+</code></pre>
+<p>Now suppose, you are instructed that <code>AreaCalculator</code> class should
+calculate area of a <code>circle</code> as well. You might think that&rsquo;s not a big
+deal.</p>
+<p>You make one <code>circle</code> class and edit the <code>AreaCalculator</code> accordingly.</p>
+<pre><code>class Circle{
+  radius;
+}
+
+class AreaCalculator(shape){
+  calculateArea(){
+    if(shape == rectangle) return width * height;
+    else return pie*radius*radius
+  }
+}
+</code></pre>
+<p>Yay, you did it. But now, you are instructed to add one for <code>triangle</code>
+as well. Well this is getting bad now, you will now edit the function,
+adding another if-else will result in complex code. You do know we don&rsquo;t
+like complex code.</p>
+<p>So, how do we get it right? Well, OCP wants us to write code, which are
+closed for modification but open for extension. It wants you to separate
+the behaviours of the system, such that utterly intrinsic behaviours are
+behind a wall, that can&rsquo;t be touched and the remainings that are
+variable and might change a lot are on other side of the wall. The base
+class is behind the wall, untouchable and all the dependencies point
+towards the base class.</p>
+<p>To resolve the above code, we will be using <code>interfaces</code>. Let&rsquo;s see how
+that works out.</p>
+<pre><code>interface Area{
+  calculateArea(){}
+}
+
+class Rectangle : Area{
+  width;
+  height;
+
+  calculateArea(){
+    return width*height;
+  }
+}
+
+class Circle : Area{
+  radius;
+
+  calculateArea(){
+    return pie*radius*radius;
+  }
+}
+</code></pre>
+<p>Now, even if you are told to find area of <code>triangle</code>, you will simply add
+another class, implement the <code>Area</code> interface and override the function,
+without modifying the existing code. Neat huh.</p>
+<h2 id="3-liskov-substitution">3. Liskov Substitution</h2>
+<p><em>Objects of base class can be replaced by objects of derived class.</em></p>
+<p>Let&rsquo;s talk about shapes. There are quadrilaterals, rectangles, squares etc.
+Let&rsquo;s take up rectangles and squares. A <code>rectangle</code> class would posses
+<code>width</code> and <code>height</code> as its attributes and some functions like <code>area</code>,
+<code>perimeter</code>.</p>
+<pre><code>class Rectangle{
+  width;
+  height;
+
+  setWidth(){};
+  setHeight(){};
+}
+</code></pre>
+<p>Now, a square is a rectangle, right. So, a <code>square</code> can inherit from a
+<code>rectangle</code>.</p>
+<pre><code>class Square extends Rectangle{
+}
+</code></pre>
+<p>Good enough? No. We just violated the Liskov Substitution principle.</p>
+<p>Think about it, a <code>rectangle</code> has two attributes: <code>width</code> and <code>height</code>, while a
+<code>square</code> needs just one: <code>side</code>. <code>Square</code> needs only one variable, but it will
+inherit two. A <code>rectangle</code> would have methods for <code>set height</code> and <code>set width</code>
+but a <code>square</code> won&rsquo;t need those both.</p>
+<p>Now, there is a design issue at stake.</p>
+<p>Understand that IsA is not inheritance. Square is a rectangle, can&rsquo;t be
+more true. But it&rsquo;s in terms of <code>geometry</code>, the same can&rsquo;t be said about
+those two while programming. It is an example of bad design. A better
+design would be to keep rectangle and square different and inheriting
+from a shape class.</p>
+<p>Liskov Substitution principle saves us from such bad software designs,
+apply this and you won&rsquo;t make such mistakes again.</p>
+<p>One more example is of circle and ellipse. I am leaving it on you to
+think about it.</p>
+<h2 id="4-interface-segregation-principle">4. Interface Segregation Principle</h2>
+<p><em>A client should never be forced to implement an interface that it does
+not use or clients shouldn’t be forced to depend on methods they do not use.</em></p>
+<p>Let&rsquo;s say we have a class, a big fat class, call it <code>fat</code>, and it has
+got a whole bunch of methods and there is a group of clients.</p>
+<p>The population of clients that does not care about some specific methods
+are still forced to, to change because <code>fat</code> class changed. In general,
+if a source file changes, you have to recompile everybody who depends on
+that source file, even if nothing they really cared about changed.</p>
+<p>An example should make it more clear:</p>
+<pre><code>interface ShapeInterface {
+  area();
+  volume();
+}
+
+class square : ShapeInterface{
+}
+</code></pre>
+<p>Now, we know that square is 2D object, and it does not have any volume
+but still it has acquired that function. The function when called upon
+will give errors and we surely don&rsquo;t want that.</p>
+<p>The way we can avoid this from happening is by taking each of the
+clients and creating an interface that contains only the methods that
+they care about.</p>
+<p>So, our example can be solved like this</p>
+<pre><code>interface ShapeInterfaceTwoD{
+  area();
+}
+
+class square : ShapeInterfaceTwoD{
+}
+</code></pre>
+<p>The square is now not taking any unnecessary methods, and we have achieved
+interface segregation. Woohoo!!</p>
+<h2 id="5-dependency-inversion">5. Dependency Inversion</h2>
+<p><em>High level modules should not depend upon low level modules. Both should
+depend upon abstractions &amp; abstractions should not depend upon details.
+Details should depend upon abstractions.</em></p>
+<p>DI is a special case of OCP, which is basically used to reduce coupling
+between two modules.</p>
+<p>An example would be a better way to understand this.</p>
+<pre><code>class PasswordReminder {
+  dbConnection;
+
+  __construct(MySQLConnection dbConnection) {
+    this-&gt;dbConnection = dbConnection;
+  }
+}
+</code></pre>
+<p>First, the <code>MySQLConnection</code> is the low level module while the
+<code>PasswordReminder</code> is high level, but according to DI, this snippet above
+violates this principle as the <code>PasswordReminder</code> class is being forced to
+depend on the <code>MySQLConnection</code> class.</p>
+<p>Later if we were to change the database engine, we would also have to edit
+the <code>PasswordReminder</code> class and thus violates OCP.</p>
+<p>To fix this again we code to an interface, since high level and low level
+modules should depend on abstraction, we can create an interface:</p>
+<pre><code>interface DBConnectionInterface {
+  public function connect();
+}
+
+class MySQLConnection implements DBConnectionInterface {
+  public function connect() {
+    return &quot;Database connection&quot;;
+  }
+}
+
+class PasswordReminder {
+  private $dbConnection;
+
+  public function __construct(DBConnectionInterface $dbConnection) {
+    $this-&gt;dbConnection = $dbConnection;
+  }
+}
+</code></pre>
+<p>Now, even if we are to change the db engine, we can do that without
+changing the <code>Password Reminder</code> class. See, we achieved reduced
+coupling and we respected our OCP too.</p>
+<p>Further Reading -</p>
+<ul>
+<li><a href="http://code.tutsplus.com/series/the-solid-principles--cms-634">Tuts Plus&rsquo; tutorial series on SOLID</a></li>
+<li><a href="http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod">Uncle Bob&rsquo;s webpage on SOLID</a></li>
+</ul>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Basic Principles of software design: Yagni</title>
+			<link>http://wallydrag.github.io/posts/yagni/</link>
+			<pubDate>Fri, 12 Jun 2015 01:53:00 +0530</pubDate>
+			
+			<guid>http://wallydrag.github.io/posts/yagni/</guid>
+			<description>Welcome to third and final part of the series &amp;ldquo;Basic Principles of software design&amp;rdquo;. In this part, we will be knowing about YAGNI, yet another simple but realistic and powerful concept.
+You aren&amp;rsquo;t gonna need it or YAGNI in short states that a new feature in a code should not be added, unless and untill it is absolutely necessary. It seriously discourages the practices of adding features that are not necessary at that present point of time, but the programmer thinks it might be useful in future.</description>
+			<content type="html"><![CDATA[<p>Welcome to third and final part of the series &ldquo;Basic Principles of
+software design&rdquo;. In this part, we will be knowing about YAGNI, yet
+another simple but realistic and powerful concept.</p>
+<p>You aren&rsquo;t gonna need it or YAGNI in short states that a new feature in
+a code should not be added, unless and untill it is absolutely
+necessary. It seriously discourages the practices of adding features
+that are not necessary at that present point of time, but the programmer
+thinks it might be useful in future. YAGNI states that coding such
+features for the future is not necessary at all, instead it focuses on
+improving the current features.</p>
+<p>YAGNI in principal belongs to extreme programming. It is meant to be
+used to several other practices such as continous referencing.</p>
+<p>YAGNI has following benefits :</p>
+<p>-adding new feauture will extract time from testing and improving the
+current features, since the new feature must be debugged, documented and
+supported</p>
+<p>-that new feature might constraint the programmer for the future
+development of the code, which is certainly not good</p>
+<p>-such new features are difficult to fully define, which makes it hard to
+code and test. So even if that feature turns out to be necessary for the
+future, you have wasted your time previously and refactoring might not
+be that easy anymore</p>
+<p>-Defy YAGNI and there is a high probablity that your desired software
+might turn into a bloatware. ( see here - <a href="http://www.webopedia.com/TERM/B/bloatware.html">http://www.webopedia.com/TERM/B/bloatware.html</a>)</p>
+<p>So you might be thinking now, what is bad about adding new features.
+What if these features might be needed in the future. Yes, you are right
+and this is a good question, even I thought about it too. But remember
+the agile practices will give you the time, to add these features in the
+future. As it is an iterative process, you need not worry about the
+future, just focus on the present. Read Martin Fowler&rsquo;s blog post, for a
+detailed information. ( <a href="http://martinfowler.com/bliki/Yagni.html">http://martinfowler.com/bliki/Yagni.html</a> )</p>
+<p>Keeping your code ready for unexpected changes is about simple design.
+Adding extra features beyond necessity always will make the design
+complex. Remember KISS.</p>
+<p>Concentrate on what is schedueled for today.</p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Basic principles of software design: Kiss</title>
+			<link>http://wallydrag.github.io/posts/kiss/</link>
+			<pubDate>Mon, 08 Jun 2015 01:52:55 +0530</pubDate>
+			
+			<guid>http://wallydrag.github.io/posts/kiss/</guid>
+			<description>This is the second post in the series of &amp;ldquo;Basic principles of software design&amp;rdquo;. In part 1, we discussed about DRY. Today, we will be knowing about KISS. Yes, you read it right.
+KISS is acronym for &amp;lsquo;Keep it simple stupid&amp;rsquo;. This principle, as simple as it sounds, is not easy to implement. I personally find it correct in so many aspects of life, for me KISS is very philosophical.</description>
+			<content type="html"><![CDATA[<p>This is the second post in the series of &ldquo;Basic principles of software
+design&rdquo;. In part 1, we discussed about DRY. Today, we will be knowing
+about KISS. Yes, you read it right.</p>
+<p>KISS is acronym for &lsquo;Keep it simple stupid&rsquo;. This principle, as simple
+as it sounds, is not easy to implement. I personally find it correct in
+so many aspects of life, for me KISS is very philosophical.</p>
+<p>Moving onto the software part, every developer should try to write code
+for a system, as simply as possible. Simplicity does not mean quick and
+dirty. Simplicity should be achieved, keeping in mind the code is easy
+to maintain and the end-product is intuitive to user. Complex systems
+are hard for humans to manage. Therefore, simplicity is a primary
+concern in software development.</p>
+<p>This is not to say that features, even internal ones, should be
+discarded in the name of simplicity. Indeed, the more elegant designs
+are usually the more simple ones. It often takes a lot of thought and
+work over multiple iterations to simplify.</p>
+<p>For an example, Ruby has conventions among its developer community, such
+as a class name should begin from a capital letter, eg. class Dog.
+Variable in ruby are named in snake case, eg. power_of_input while
+variable in js are named in camel case, eg. powerOfInput. These
+conventions are widespread, and helps in spreading a general awareness,
+such as a developer across the globe would be able to understand so much
+of your code, without having to put too much of his thought process.</p>
+<p>Such conventions should be followed, because if you are not, not only
+you will be having a hard time, but your other fellow developers too.</p>
+<p>KISS also comes in handy, when you are trying to over simplifying
+things. That leads to unefficient code and new problems may arrive.
+Chances are the problem you were set out to solve might not have been
+solved.</p>
+<p>KISS also puts a boundary on applying other prinicples and guidelines
+such as DRY and SOLID. If you have to unDRY certain parts of your code,
+and if that way, it becomes simple, KISS will allow that.</p>
+<p>When in doubt, just remember this quote from ALbert Einstein: &lsquo;Things
+should be made simple but not simpler.&rsquo;</p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Basic principles of software design: Dry</title>
+			<link>http://wallydrag.github.io/posts/dry/</link>
+			<pubDate>Thu, 04 Jun 2015 01:50:29 +0530</pubDate>
+			
+			<guid>http://wallydrag.github.io/posts/dry/</guid>
+			<description>I am thinking of doing a series of blog posts this time, that underlines the importance of some of the very basic principles of software development. I personally felt that a programmer should be introduced to these principles as early as possible. These fundamentals may seem easy on the eye, but it takes a while to implement them in your code.
+Imagine a situation. Suppose you have a dog at your house, that needs milk every morning.</description>
+			<content type="html"><![CDATA[<p>I am thinking of doing a series of blog posts this time, that
+underlines the importance of some of the very basic principles of
+software development. I personally felt that a programmer should be
+introduced to these principles as early as possible. These fundamentals
+may seem easy on the eye, but it takes a while to implement them
+in your code.</p>
+<p>Imagine a situation. Suppose you have a dog at your house, that needs
+milk every morning. You can&rsquo;t buy milk in bulk because storage is a problem.
+So, you can either go to the milk shop daily in the morning and buy milk, or
+you can go just once and pay him for a subscription so he will send someone
+to your place to deliver the milk. So which sounds best to you, decide for
+yourself. <em>A good programmer for the second one</em></p>
+<p>This is the first part of this series of blog posts and today, we are going
+to know about a software engineering principle called <strong>DRY</strong> - short form
+for <em>Don&rsquo;t Repeat Yourself</em></p>
+<p>This principle came up in the book <em>The Pragmatic Programmer</em>, by
+Andy Hunt and Dave Thomas, but the concept, itself, has been known
+for a long time. One can understand the idea of the principle by just
+looking at it. And it&rsquo;s pretty relevant not just in programming but I
+believe in many aspects of life.</p>
+<p>So, how do we work on a complex problem that we know requires effort in
+writing code? An evergreen solution is to breakdown the problem into
+several small components, where each performs some specific functionality.
+Then these components together will be the solution to the original
+problem. Large software projects can be overwhelming, but dividing them
+into parts makes it easier for us humans to understand them.</p>
+<p>For example, if we&rsquo;re building a content management system, the part that
+is responsible for user management will be a component. This component can
+be divided into further subcomponents, like role management, and it may
+communicate with other components, such as the security component.</p>
+<p>As we divide systems into components, and, further, components into
+subcomponents, we will arrive at a level, where the complexity is reduced
+to a single responsibility. These responsibilities can be implemented in a
+class (we assume that we&rsquo;re building an object-oriented application).
+Classes contain methods and properties. Methods and subparts of these
+methods are calculating or containing the smallest pieces that build your
+logic.</p>
+<p><em>The DRY principle states that these small pieces of logic may only
+occur exactly once in our entire system.</em></p>
+<p>DRY is a philosophy that packages logic into representations.
+There are many ways of achieving DRYness. Hunt and Thomas suggested
+(among other things) code generators and data transforming. But,
+essentially, DRY is a philosophy that packages logic into representations.
+And each logic must have a single, unambigous representation in your code.</p>
+<p>Sounds easy, right? Well, that&rsquo;s not usually the case. DRY and modular
+architecture require good planning. To achieve a representational hierachy
+from bottom-up, divide your application in a hierarchy of logically separated
+smaller parts and let them communicate with each other. If you have to manage
+larger projects, organizing them into components and using DRY within the
+components is a good idea.</p>
+<p>And while you write code, be lazy!!</p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Test Driven Development for Dumb Minds</title>
+			<link>http://wallydrag.github.io/posts/test-driven-development-for-dumb-minds/</link>
+			<pubDate>Tue, 26 May 2015 01:46:31 +0530</pubDate>
+			
+			<guid>http://wallydrag.github.io/posts/test-driven-development-for-dumb-minds/</guid>
+			<description>The following blog post discusses Test Driven Development and aims for people who want to understand what it is, can get a fair bit of idea after reading the post.
+No, I am not going to begin with a story here. Let&amp;rsquo;s not waste any more time and dive straight into the world of Test Driven Development.
+What is Test Driven Development? You might have heard of the above term in your college course software engineering.</description>
+			<content type="html"><![CDATA[<p>The following blog post discusses Test Driven Development and aims for
+people who want to understand what it is, can get a fair bit of idea
+after reading the post.</p>
+<p>No, I am not going to begin with a story here. Let&rsquo;s not waste any more
+time and dive straight into the world of Test Driven Development.</p>
+<h2 id="what-is-test-driven-development">What is Test Driven Development?</h2>
+<p>You might have heard of the above term in your college course <em>software
+engineering.</em> If you are still in college, chances are you don&rsquo;t know
+exactly how it is implemented in a code.</p>
+<p>Let&rsquo;s just say, TDD wants to you to write a test, before you write a
+small patch of code. That way, you make sure that very certain small
+patch of code performs its intended functionality. We will understand
+this in a bit more depth later.</p>
+<h4 id="so-what-the-heck-is-testing">So, what the heck is testing?</h4>
+<p>Suppose you wrote a program, that takes two numbers as input, and
+outputs the sum of those numbers. You compile the code, and if it has no
+errors, it would run without any problem. Then you would give two
+numbers, to see if the code gives the desired result. The last step you
+did was testing the code. To see whether your code is working desirably
+or not is testing.</p>
+<h4 id="so-what-is-so-cool-about-tdd">So, what is so cool about TDD?</h4>
+<p>The process of testing that we applied on the above case has certain
+pitfalls</p>
+<ul>
+<li>
+<p>You had to write the entire program, before you can test. Imagine
+writing thousand of lines of code for a program, but with the
+uncertainity that whatever you written may not be correct.</p>
+</li>
+<li>
+<p>Once you have written your big program, it would be hard for you to
+debug if a error occurs or your program doesn&rsquo;t run properly. This way
+of testing won&rsquo;t pinpoint that specific segment of code, which is
+causing the program to fail.</p>
+</li>
+<li>
+<p>The way of testing is manual, and you do know that automating things
+are cool. Hey, that&rsquo;s the reason we code, right. You can check for
+numerous cases when you have written a test, but I know that you won&rsquo;t
+check for numerous cases when you would have to feed the input
+every time. Yeah, humans are lazy.</p>
+</li>
+<li>
+<p>Take one example, suppose you maintain a somewhat large codebase on
+github and people constantly send you pull requests. Since you haven&rsquo;t
+written any test, you will need to run your program, with each pull
+request, see whether it is working or not. And you still won&rsquo;t be sure
+whether that patch of code is absolutely correct or not.</p>
+</li>
+</ul>
+<p>Now, if you would have followed the TDD paradigm, things would have been
+different and life would be much simpler, let&rsquo;s see how :</p>
+<ul>
+<li>
+<p>The unit tests will provide constant feedback that each component is
+still working. You don&rsquo;t need to write the full program to check your
+code. TDD will give you the power, to run every unit of individually.
+That way, you can be sure that whatever you have coded till, is correct.</p>
+</li>
+<li>
+<p>Debugging becomes a lot easier. Running the tests will pinpoint that
+part which is causing the program to fail, if any. You don&rsquo;t even need
+to compile and run the program itself, just run the tests.</p>
+</li>
+<li>
+<p>You can put numerous test cases to check the code. Automating things
+will make the work faster but rigourous checking will also be ensured.</p>
+</li>
+<li>
+<p>You don&rsquo;t need to understand everyone&rsquo;s patch in your code. Just run
+the tests, if the patches are good enough, the tests will run fine and
+you will know which patches to select for your code.</p>
+</li>
+</ul>
+<h4 id="hmm-but-how-do-i-do-it">Hmm, but how do I do it?</h4>
+<p>The process of TDD is best understood by cycle called <strong>Red, Green and
+Refactor</strong>, shortly known as RGR.</p>
+<p>Just read on to know what RGR means exactly:</p>
+<p>-Understand the requirements of the story, work item, or feature that
+you are working on.</p>
+<p>-Red: Create a test and make it fail.Imagine how the new code should be
+called and write the test as if the code already existed. Run the test.
+It should fail. This is a calibration measure to ensure that your test
+is calling the correct code and that the code is not working by accident.
+This is a meaningful failure, and you expect it to fail.</p>
+<p>-Green: Make the test pass. Write the production code to make the test pass.
+If you&rsquo;ve written the code so that the test passes as intended, you have
+done you job. If new functionality is still needed, then another test is
+needed. Make this one test pass and continue. When the test passes, you might
+want to run all tests up to this point to build confidence that everything
+else is still working.</p>
+<p>-Refactor: Change the code to improve the design while ensuring that all
+tests still pass.</p>
+<p>Repeat the cycle 2-3-4. Each cycle should be very short.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>No fairy tale ending here. Just go out and get your hands&rsquo; dirty with
+TDD. Only practicing to write code by TDD guidelines will make you
+understand its concepts better. Run away fella, run away now.</p>
+]]></content>
+		</item>
+		
+	</channel>
+</rss>

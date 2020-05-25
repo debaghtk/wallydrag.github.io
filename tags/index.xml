@@ -7,9 +7,100 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Sun, 19 Jun 2016 01:54:02 +0530</lastBuildDate>
     
 	<atom:link href="http://wallydrag.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>irb</title>
+      <link>http://wallydrag.github.io/tags/irb/</link>
+      <pubDate>Sun, 19 Jun 2016 01:54:02 +0530</pubDate>
+      
+      <guid>http://wallydrag.github.io/tags/irb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rails</title>
+      <link>http://wallydrag.github.io/tags/rails/</link>
+      <pubDate>Sun, 19 Jun 2016 01:54:02 +0530</pubDate>
+      
+      <guid>http://wallydrag.github.io/tags/rails/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rails console</title>
+      <link>http://wallydrag.github.io/tags/rails-console/</link>
+      <pubDate>Sun, 19 Jun 2016 01:54:02 +0530</pubDate>
+      
+      <guid>http://wallydrag.github.io/tags/rails-console/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ruby</title>
+      <link>http://wallydrag.github.io/tags/ruby/</link>
+      <pubDate>Sun, 19 Jun 2016 01:54:02 +0530</pubDate>
+      
+      <guid>http://wallydrag.github.io/tags/ruby/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software development</title>
+      <link>http://wallydrag.github.io/tags/software-development/</link>
+      <pubDate>Sun, 19 Jun 2016 01:54:02 +0530</pubDate>
+      
+      <guid>http://wallydrag.github.io/tags/software-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CI, CD</title>
+      <link>http://wallydrag.github.io/tags/ci-cd/</link>
+      <pubDate>Sun, 29 Nov 2015 01:53:52 +0530</pubDate>
+      
+      <guid>http://wallydrag.github.io/tags/ci-cd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>continuous delivery</title>
+      <link>http://wallydrag.github.io/tags/continuous-delivery/</link>
+      <pubDate>Sun, 29 Nov 2015 01:53:52 +0530</pubDate>
+      
+      <guid>http://wallydrag.github.io/tags/continuous-delivery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>continuous deployment</title>
+      <link>http://wallydrag.github.io/tags/continuous-deployment/</link>
+      <pubDate>Sun, 29 Nov 2015 01:53:52 +0530</pubDate>
+      
+      <guid>http://wallydrag.github.io/tags/continuous-deployment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>continuous integration</title>
+      <link>http://wallydrag.github.io/tags/continuous-integration/</link>
+      <pubDate>Sun, 29 Nov 2015 01:53:52 +0530</pubDate>
+      
+      <guid>http://wallydrag.github.io/tags/continuous-integration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>culture</title>
+      <link>http://wallydrag.github.io/tags/culture/</link>
+      <pubDate>Sun, 29 Nov 2015 01:53:52 +0530</pubDate>
+      
+      <guid>http://wallydrag.github.io/tags/culture/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

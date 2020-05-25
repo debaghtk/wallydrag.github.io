@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="theme-color" content="#494f5c">
+	<meta name="msapplication-TileColor" content="#494f5c">
+<meta itemprop="name" content="Test Driven Development for Dumb Minds">
+<meta itemprop="description" content="The following blog post discusses Test Driven Development and aims for people who want to understand what it is, can get a fair bit of idea after reading the post.
+No, I am not going to begin with a story here. Let&rsquo;s not waste any more time and dive straight into the world of Test Driven Development.
+What is Test Driven Development? You might have heard of the above term in your college course software engineering.">
+<meta itemprop="datePublished" content="2015-05-26T01:46:31&#43;05:30" />
+<meta itemprop="dateModified" content="2015-05-26T01:46:31&#43;05:30" />
+<meta itemprop="wordCount" content="851">
+
+
+
+<meta itemprop="keywords" content="tdd,test driven development," /><meta property="og:title" content="Test Driven Development for Dumb Minds" />
+<meta property="og:description" content="The following blog post discusses Test Driven Development and aims for people who want to understand what it is, can get a fair bit of idea after reading the post.
+No, I am not going to begin with a story here. Let&rsquo;s not waste any more time and dive straight into the world of Test Driven Development.
+What is Test Driven Development? You might have heard of the above term in your college course software engineering." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://wallydrag.github.io/posts/test-driven-development-for-dumb-minds/" />
+<meta property="article:published_time" content="2015-05-26T01:46:31+05:30" />
+<meta property="article:modified_time" content="2015-05-26T01:46:31+05:30" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Test Driven Development for Dumb Minds"/>
+<meta name="twitter:description" content="The following blog post discusses Test Driven Development and aims for people who want to understand what it is, can get a fair bit of idea after reading the post.
+No, I am not going to begin with a story here. Let&rsquo;s not waste any more time and dive straight into the world of Test Driven Development.
+What is Test Driven Development? You might have heard of the above term in your college course software engineering."/>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
+	<link rel="shortcut icon" href="/favicon.ico">
+
+	<title>Test Driven Development for Dumb Minds</title>
+	<link rel="stylesheet" href="http://wallydrag.github.io/css/style.min.657bcb7af31123e4156b1a3d2ff60a636717e54ead74f882136b5114cf72b55e.css" integrity="sha256-ZXvLevMRI+QVaxo9L/YKY2cX5U6tdPiCE2tRFM9ytV4=" crossorigin="anonymous">
+	
+</head>
+
+<body id="page">
+	
+	<header id="site-header" class="animated slideInUp faster">
+		<div class="hdr-wrapper section-inner">
+			<div class="hdr-left">
+				<div class="site-branding">
+					<a href="http://wallydrag.github.io">Debashish Ghatak</a>
+				</div>
+				<nav class="site-nav hide-in-mobile">
+					
+				<a href="http://wallydrag.github.io/posts/">Posts</a>
+				<a href="http://wallydrag.github.io/about-hugo/">About</a>
+
+				</nav>
+			</div>
+			<div class="hdr-right hdr-icons">
+				<span class="hdr-social hide-in-mobile"><a href="https://twitter.com/wallydrag8" target="_blank" rel="noopener me" title="Twitter"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a><a href="https://github.com/wallydrag" target="_blank" rel="noopener me" title="Github"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a></span><button id="menu-btn" class="hdr-btn" title="Menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+			</div>
+		</div>
+	</header>
+	<div id="mobile-menu" class="animated fast">
+		<ul>
+			<li><a href="http://wallydrag.github.io/posts/">Posts</a></li>
+			<li><a href="http://wallydrag.github.io/about-hugo/">About</a></li>
+		</ul>
+	</div>
+
+
+	<main class="site-main section-inner animated fadeIn faster">
+		<article class="thin">
+			<header class="post-header">
+				<div class="post-meta"><span>May 26, 2015</span></div>
+				<h1>Test Driven Development for Dumb Minds</h1>
+			</header>
+			<div class="content">
+				<p>The following blog post discusses Test Driven Development and aims for
+people who want to understand what it is, can get a fair bit of idea
+after reading the post.</p>
+<p>No, I am not going to begin with a story here. Let&rsquo;s not waste any more
+time and dive straight into the world of Test Driven Development.</p>
+<h2 id="what-is-test-driven-development">What is Test Driven Development?<a href="#what-is-test-driven-development" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>You might have heard of the above term in your college course <em>software
+engineering.</em> If you are still in college, chances are you don&rsquo;t know
+exactly how it is implemented in a code.</p>
+<p>Let&rsquo;s just say, TDD wants to you to write a test, before you write a
+small patch of code. That way, you make sure that very certain small
+patch of code performs its intended functionality. We will understand
+this in a bit more depth later.</p>
+<h4 id="so-what-the-heck-is-testing">So, what the heck is testing?<a href="#so-what-the-heck-is-testing" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h4>
+<p>Suppose you wrote a program, that takes two numbers as input, and
+outputs the sum of those numbers. You compile the code, and if it has no
+errors, it would run without any problem. Then you would give two
+numbers, to see if the code gives the desired result. The last step you
+did was testing the code. To see whether your code is working desirably
+or not is testing.</p>
+<h4 id="so-what-is-so-cool-about-tdd">So, what is so cool about TDD?<a href="#so-what-is-so-cool-about-tdd" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h4>
+<p>The process of testing that we applied on the above case has certain
+pitfalls</p>
+<ul>
+<li>
+<p>You had to write the entire program, before you can test. Imagine
+writing thousand of lines of code for a program, but with the
+uncertainity that whatever you written may not be correct.</p>
+</li>
+<li>
+<p>Once you have written your big program, it would be hard for you to
+debug if a error occurs or your program doesn&rsquo;t run properly. This way
+of testing won&rsquo;t pinpoint that specific segment of code, which is
+causing the program to fail.</p>
+</li>
+<li>
+<p>The way of testing is manual, and you do know that automating things
+are cool. Hey, that&rsquo;s the reason we code, right. You can check for
+numerous cases when you have written a test, but I know that you won&rsquo;t
+check for numerous cases when you would have to feed the input
+every time. Yeah, humans are lazy.</p>
+</li>
+<li>
+<p>Take one example, suppose you maintain a somewhat large codebase on
+github and people constantly send you pull requests. Since you haven&rsquo;t
+written any test, you will need to run your program, with each pull
+request, see whether it is working or not. And you still won&rsquo;t be sure
+whether that patch of code is absolutely correct or not.</p>
+</li>
+</ul>
+<p>Now, if you would have followed the TDD paradigm, things would have been
+different and life would be much simpler, let&rsquo;s see how :</p>
+<ul>
+<li>
+<p>The unit tests will provide constant feedback that each component is
+still working. You don&rsquo;t need to write the full program to check your
+code. TDD will give you the power, to run every unit of individually.
+That way, you can be sure that whatever you have coded till, is correct.</p>
+</li>
+<li>
+<p>Debugging becomes a lot easier. Running the tests will pinpoint that
+part which is causing the program to fail, if any. You don&rsquo;t even need
+to compile and run the program itself, just run the tests.</p>
+</li>
+<li>
+<p>You can put numerous test cases to check the code. Automating things
+will make the work faster but rigourous checking will also be ensured.</p>
+</li>
+<li>
+<p>You don&rsquo;t need to understand everyone&rsquo;s patch in your code. Just run
+the tests, if the patches are good enough, the tests will run fine and
+you will know which patches to select for your code.</p>
+</li>
+</ul>
+<h4 id="hmm-but-how-do-i-do-it">Hmm, but how do I do it?<a href="#hmm-but-how-do-i-do-it" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h4>
+<p>The process of TDD is best understood by cycle called <strong>Red, Green and
+Refactor</strong>, shortly known as RGR.</p>
+<p>Just read on to know what RGR means exactly:</p>
+<p>-Understand the requirements of the story, work item, or feature that
+you are working on.</p>
+<p>-Red: Create a test and make it fail.Imagine how the new code should be
+called and write the test as if the code already existed. Run the test.
+It should fail. This is a calibration measure to ensure that your test
+is calling the correct code and that the code is not working by accident.
+This is a meaningful failure, and you expect it to fail.</p>
+<p>-Green: Make the test pass. Write the production code to make the test pass.
+If you&rsquo;ve written the code so that the test passes as intended, you have
+done you job. If new functionality is still needed, then another test is
+needed. Make this one test pass and continue. When the test passes, you might
+want to run all tests up to this point to build confidence that everything
+else is still working.</p>
+<p>-Refactor: Change the code to improve the design while ensuring that all
+tests still pass.</p>
+<p>Repeat the cycle 2-3-4. Each cycle should be very short.</p>
+<h2 id="conclusion">Conclusion<a href="#conclusion" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>No fairy tale ending here. Just go out and get your hands&rsquo; dirty with
+TDD. Only practicing to write code by TDD guidelines will make you
+understand its concepts better. Run away fella, run away now.</p>
+
+			</div>
+			<hr class="post-end">
+			<footer class="post-info">
+				<p>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="http://wallydrag.github.io/tags/tdd">tdd</a></span><span class="tag"><a href="http://wallydrag.github.io/tags/test-driven-development">test driven development</a></span>
+				</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>851 Words</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2015-05-26 01:46 &#43;0530</p>
+			</footer>
+		</article>
+		<div class="post-nav thin">
+			<a class="next-post" href="http://wallydrag.github.io/posts/dry/">
+				<span class="post-nav-label"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>&nbsp;Newer</span><br><span>Basic principles of software design: Dry</span>
+			</a>
+		</div>
+		<div id="comments" class="thin">
+</div>
+	</main>
+
+	<footer id="site-footer" class="section-inner thin animated fadeIn faster">
+		<p>&copy; 2020 <a href="http://wallydrag.github.io">Debashish Ghatak</a> &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></p>
+		<p>
+			Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> &#183; Theme <a href="https://github.com/Track3/hermit" target="_blank" rel="noopener">Hermit</a> &#183; <a href="http://wallydrag.github.io/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+		</p>
+	</footer>
+
+
+
+	<script src="http://wallydrag.github.io/js/bundle.min.4a9a0ac3d2217822c7865b4161e6c2a71de1d70492264337755427898dd718f6.js" integrity="sha256-SpoKw9IheCLHhltBYebCpx3h1wSSJkM3dVQniY3XGPY=" crossorigin="anonymous"></script>
+	
+
+</body>
+
+</html>
