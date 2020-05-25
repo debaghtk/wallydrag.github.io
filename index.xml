@@ -13,6 +13,16 @@
     
     
     <item>
+      <title>About Me</title>
+      <link>http://wallydrag.github.io/about/</link>
+      <pubDate>Tue, 26 May 2020 02:25:02 +0530</pubDate>
+      
+      <guid>http://wallydrag.github.io/about/</guid>
+      <description>I strive to be an end to end product engineer
+Currently working at Gojek Tech as an Engineering Manager on the infrastructure platform team</description>
+    </item>
+    
+    <item>
       <title>2018 in Review</title>
       <link>http://wallydrag.github.io/posts/2018-in-review/</link>
       <pubDate>Tue, 09 Apr 2019 02:09:54 +0530</pubDate>
