@@ -2,103 +2,103 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Debashish Ghatak</title>
-    <link>http://wallydrag.github.io/tags/</link>
+    <link>https://deba.dev/tags/</link>
     <description>Recent content in Tags on Debashish Ghatak</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Tue, 09 Apr 2019 02:09:54 +0530</lastBuildDate>
     
-	<atom:link href="http://wallydrag.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://deba.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>untagged</title>
-      <link>http://wallydrag.github.io/tags/untagged/</link>
+      <link>https://deba.dev/tags/untagged/</link>
       <pubDate>Tue, 09 Apr 2019 02:09:54 +0530</pubDate>
       
-      <guid>http://wallydrag.github.io/tags/untagged/</guid>
+      <guid>https://deba.dev/tags/untagged/</guid>
       <description></description>
     </item>
     
     <item>
       <title>irb</title>
-      <link>http://wallydrag.github.io/tags/irb/</link>
+      <link>https://deba.dev/tags/irb/</link>
       <pubDate>Sun, 19 Jun 2016 01:54:02 +0530</pubDate>
       
-      <guid>http://wallydrag.github.io/tags/irb/</guid>
+      <guid>https://deba.dev/tags/irb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>rails</title>
-      <link>http://wallydrag.github.io/tags/rails/</link>
+      <link>https://deba.dev/tags/rails/</link>
       <pubDate>Sun, 19 Jun 2016 01:54:02 +0530</pubDate>
       
-      <guid>http://wallydrag.github.io/tags/rails/</guid>
+      <guid>https://deba.dev/tags/rails/</guid>
       <description></description>
     </item>
     
     <item>
       <title>rails console</title>
-      <link>http://wallydrag.github.io/tags/rails-console/</link>
+      <link>https://deba.dev/tags/rails-console/</link>
       <pubDate>Sun, 19 Jun 2016 01:54:02 +0530</pubDate>
       
-      <guid>http://wallydrag.github.io/tags/rails-console/</guid>
+      <guid>https://deba.dev/tags/rails-console/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ruby</title>
-      <link>http://wallydrag.github.io/tags/ruby/</link>
+      <link>https://deba.dev/tags/ruby/</link>
       <pubDate>Sun, 19 Jun 2016 01:54:02 +0530</pubDate>
       
-      <guid>http://wallydrag.github.io/tags/ruby/</guid>
+      <guid>https://deba.dev/tags/ruby/</guid>
       <description></description>
     </item>
     
     <item>
       <title>software development</title>
-      <link>http://wallydrag.github.io/tags/software-development/</link>
+      <link>https://deba.dev/tags/software-development/</link>
       <pubDate>Sun, 19 Jun 2016 01:54:02 +0530</pubDate>
       
-      <guid>http://wallydrag.github.io/tags/software-development/</guid>
+      <guid>https://deba.dev/tags/software-development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CI, CD</title>
-      <link>http://wallydrag.github.io/tags/ci-cd/</link>
+      <link>https://deba.dev/tags/ci-cd/</link>
       <pubDate>Sun, 29 Nov 2015 01:53:52 +0530</pubDate>
       
-      <guid>http://wallydrag.github.io/tags/ci-cd/</guid>
+      <guid>https://deba.dev/tags/ci-cd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>continuous delivery</title>
-      <link>http://wallydrag.github.io/tags/continuous-delivery/</link>
+      <link>https://deba.dev/tags/continuous-delivery/</link>
       <pubDate>Sun, 29 Nov 2015 01:53:52 +0530</pubDate>
       
-      <guid>http://wallydrag.github.io/tags/continuous-delivery/</guid>
+      <guid>https://deba.dev/tags/continuous-delivery/</guid>
       <description></description>
     </item>
     
     <item>
       <title>continuous deployment</title>
-      <link>http://wallydrag.github.io/tags/continuous-deployment/</link>
+      <link>https://deba.dev/tags/continuous-deployment/</link>
       <pubDate>Sun, 29 Nov 2015 01:53:52 +0530</pubDate>
       
-      <guid>http://wallydrag.github.io/tags/continuous-deployment/</guid>
+      <guid>https://deba.dev/tags/continuous-deployment/</guid>
       <description></description>
     </item>
     
     <item>
       <title>continuous integration</title>
-      <link>http://wallydrag.github.io/tags/continuous-integration/</link>
+      <link>https://deba.dev/tags/continuous-integration/</link>
       <pubDate>Sun, 29 Nov 2015 01:53:52 +0530</pubDate>
       
-      <guid>http://wallydrag.github.io/tags/continuous-integration/</guid>
+      <guid>https://deba.dev/tags/continuous-integration/</guid>
       <description></description>
     </item>
     

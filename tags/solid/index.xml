@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>solid on Debashish Ghatak</title>
-    <link>http://wallydrag.github.io/tags/solid/</link>
+    <link>https://deba.dev/tags/solid/</link>
     <description>Recent content in solid on Debashish Ghatak</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Tue, 07 Jul 2015 01:53:25 +0530</lastBuildDate>
     
-	<atom:link href="http://wallydrag.github.io/tags/solid/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://deba.dev/tags/solid/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>SOLID</title>
-      <link>http://wallydrag.github.io/posts/solid/</link>
+      <link>https://deba.dev/posts/solid/</link>
       <pubDate>Tue, 07 Jul 2015 01:53:25 +0530</pubDate>
       
-      <guid>http://wallydrag.github.io/posts/solid/</guid>
+      <guid>https://deba.dev/posts/solid/</guid>
       <description>Well Codeignition has added some new faces recently, and yeah I am one of them. I just passed out from IIT Jodhpur and got in here. And its been a huge learning experience since. Writing code is not the same now. Now I need to impose a great deal of thought on the structure of the code, and yes, SOLID has been a big help. So let&amp;rsquo;s get back to the basics and see what the fuss it is.</description>
     </item>
     

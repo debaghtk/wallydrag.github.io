@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>don&#39;t repeat yourself on Debashish Ghatak</title>
-    <link>http://wallydrag.github.io/tags/dont-repeat-yourself/</link>
+    <link>https://deba.dev/tags/dont-repeat-yourself/</link>
     <description>Recent content in don&#39;t repeat yourself on Debashish Ghatak</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Thu, 04 Jun 2015 01:50:29 +0530</lastBuildDate>
     
-	<atom:link href="http://wallydrag.github.io/tags/dont-repeat-yourself/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://deba.dev/tags/dont-repeat-yourself/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Basic principles of software design: Dry</title>
-      <link>http://wallydrag.github.io/posts/dry/</link>
+      <link>https://deba.dev/posts/dry/</link>
       <pubDate>Thu, 04 Jun 2015 01:50:29 +0530</pubDate>
       
-      <guid>http://wallydrag.github.io/posts/dry/</guid>
+      <guid>https://deba.dev/posts/dry/</guid>
       <description>I am thinking of doing a series of blog posts this time, that underlines the importance of some of the very basic principles of software development. I personally felt that a programmer should be introduced to these principles as early as possible. These fundamentals may seem easy on the eye, but it takes a while to implement them in your code.
 Imagine a situation. Suppose you have a dog at your house, that needs milk every morning.</description>
     </item>

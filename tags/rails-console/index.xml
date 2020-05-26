@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>rails console on Debashish Ghatak</title>
-    <link>http://wallydrag.github.io/tags/rails-console/</link>
+    <link>https://deba.dev/tags/rails-console/</link>
     <description>Recent content in rails console on Debashish Ghatak</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Sun, 19 Jun 2016 01:54:02 +0530</lastBuildDate>
     
-	<atom:link href="http://wallydrag.github.io/tags/rails-console/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://deba.dev/tags/rails-console/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Irb vs Rails Console Whats the Difference</title>
-      <link>http://wallydrag.github.io/posts/irb-vs-rails-console-whats-the-difference/</link>
+      <link>https://deba.dev/posts/irb-vs-rails-console-whats-the-difference/</link>
       <pubDate>Sun, 19 Jun 2016 01:54:02 +0530</pubDate>
       
-      <guid>http://wallydrag.github.io/posts/irb-vs-rails-console-whats-the-difference/</guid>
+      <guid>https://deba.dev/posts/irb-vs-rails-console-whats-the-difference/</guid>
       <description>Every ruby/rails programmer knows how much valuable are friends like irb and rails console. I particularly am very fond of them, because any time I want to try something, I instantly use them. You also must be aware of bundle console and bundle exec irb.
 So, actually we have four such tools, but what is the difference between all four of them, if any.
 irb vs bundle exec irb vs bundle console vs rails console irb irb is just plain simple ruby console.</description>

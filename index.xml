@@ -2,42 +2,42 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Debashish Ghatak</title>
-    <link>http://wallydrag.github.io/</link>
+    <link>https://deba.dev/</link>
     <description>Recent content on Debashish Ghatak</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Tue, 09 Apr 2019 02:09:54 +0530</lastBuildDate>
     
-	<atom:link href="http://wallydrag.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://deba.dev/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About Me</title>
-      <link>http://wallydrag.github.io/about/</link>
+      <link>https://deba.dev/about/</link>
       <pubDate>Tue, 26 May 2020 02:25:02 +0530</pubDate>
       
-      <guid>http://wallydrag.github.io/about/</guid>
+      <guid>https://deba.dev/about/</guid>
       <description>I strive to be an end to end product engineer
 Currently working at Gojek Tech as an Engineering Manager on the infrastructure platform team</description>
     </item>
     
     <item>
       <title>2018 in Review</title>
-      <link>http://wallydrag.github.io/posts/2018-in-review/</link>
+      <link>https://deba.dev/posts/2018-in-review/</link>
       <pubDate>Tue, 09 Apr 2019 02:09:54 +0530</pubDate>
       
-      <guid>http://wallydrag.github.io/posts/2018-in-review/</guid>
+      <guid>https://deba.dev/posts/2018-in-review/</guid>
       <description>Just when I was having a sound sleep, I abruptly woke up. There were fireworks outside. So many that they woke me up and I am in no way a light sleeper. It was 12:15 AM Jan 1 2018.
 I just missed new year countdown, and I was in Berlin. On a trip. All the plans of how amazing the new year would go in vain. But wait this was Berlin.</description>
     </item>
     
     <item>
       <title>Irb vs Rails Console Whats the Difference</title>
-      <link>http://wallydrag.github.io/posts/irb-vs-rails-console-whats-the-difference/</link>
+      <link>https://deba.dev/posts/irb-vs-rails-console-whats-the-difference/</link>
       <pubDate>Sun, 19 Jun 2016 01:54:02 +0530</pubDate>
       
-      <guid>http://wallydrag.github.io/posts/irb-vs-rails-console-whats-the-difference/</guid>
+      <guid>https://deba.dev/posts/irb-vs-rails-console-whats-the-difference/</guid>
       <description>Every ruby/rails programmer knows how much valuable are friends like irb and rails console. I particularly am very fond of them, because any time I want to try something, I instantly use them. You also must be aware of bundle console and bundle exec irb.
 So, actually we have four such tools, but what is the difference between all four of them, if any.
 irb vs bundle exec irb vs bundle console vs rails console irb irb is just plain simple ruby console.</description>
@@ -45,69 +45,69 @@ irb vs bundle exec irb vs bundle console vs rails console irb irb is just plain 
     
     <item>
       <title>Continuous Delivery Continuous Deployment and Continuous Integration Whats the Difference</title>
-      <link>http://wallydrag.github.io/posts/continous-delivery-continous-deployment-and-continous-integration-whats-the-difference/</link>
+      <link>https://deba.dev/posts/continous-delivery-continous-deployment-and-continous-integration-whats-the-difference/</link>
       <pubDate>Sun, 29 Nov 2015 01:53:52 +0530</pubDate>
       
-      <guid>http://wallydrag.github.io/posts/continous-delivery-continous-deployment-and-continous-integration-whats-the-difference/</guid>
+      <guid>https://deba.dev/posts/continous-delivery-continous-deployment-and-continous-integration-whats-the-difference/</guid>
       <description>Continuous delivery, continuous deployment and continuous integration are three words that you might be hearing regularly these days. I was initially confused as they seemed pretty similar to me and I bet half of the crowd are confused too. So I put on my superhero mask and googled the three :D
 Turns out, these three, while being really similar and related to each other as well, have pretty subtle differences.</description>
     </item>
     
     <item>
       <title>Ansible</title>
-      <link>http://wallydrag.github.io/posts/ansible/</link>
+      <link>https://deba.dev/posts/ansible/</link>
       <pubDate>Wed, 11 Nov 2015 01:53:33 +0530</pubDate>
       
-      <guid>http://wallydrag.github.io/posts/ansible/</guid>
+      <guid>https://deba.dev/posts/ansible/</guid>
       <description>Imagine a situation where you have two machines, where one is your workstation. Let&amp;rsquo;s call it the management node. The other one is a fresh ubuntu/centos machine which can be bare metal physical box or a cloud instance. Let&amp;rsquo;s say you have to configure this machine into a apache or nginx web server.
 One way to go about this would be to manually ssh into the machine, install the necessary packages and editing the configuration files.</description>
     </item>
     
     <item>
       <title>SOLID</title>
-      <link>http://wallydrag.github.io/posts/solid/</link>
+      <link>https://deba.dev/posts/solid/</link>
       <pubDate>Tue, 07 Jul 2015 01:53:25 +0530</pubDate>
       
-      <guid>http://wallydrag.github.io/posts/solid/</guid>
+      <guid>https://deba.dev/posts/solid/</guid>
       <description>Well Codeignition has added some new faces recently, and yeah I am one of them. I just passed out from IIT Jodhpur and got in here. And its been a huge learning experience since. Writing code is not the same now. Now I need to impose a great deal of thought on the structure of the code, and yes, SOLID has been a big help. So let&amp;rsquo;s get back to the basics and see what the fuss it is.</description>
     </item>
     
     <item>
       <title>Basic Principles of software design: Yagni</title>
-      <link>http://wallydrag.github.io/posts/yagni/</link>
+      <link>https://deba.dev/posts/yagni/</link>
       <pubDate>Fri, 12 Jun 2015 01:53:00 +0530</pubDate>
       
-      <guid>http://wallydrag.github.io/posts/yagni/</guid>
+      <guid>https://deba.dev/posts/yagni/</guid>
       <description>Welcome to third and final part of the series &amp;ldquo;Basic Principles of software design&amp;rdquo;. In this part, we will be knowing about YAGNI, yet another simple but realistic and powerful concept.
 You aren&amp;rsquo;t gonna need it or YAGNI in short states that a new feature in a code should not be added, unless and untill it is absolutely necessary. It seriously discourages the practices of adding features that are not necessary at that present point of time, but the programmer thinks it might be useful in future.</description>
     </item>
     
     <item>
       <title>Basic principles of software design: Kiss</title>
-      <link>http://wallydrag.github.io/posts/kiss/</link>
+      <link>https://deba.dev/posts/kiss/</link>
       <pubDate>Mon, 08 Jun 2015 01:52:55 +0530</pubDate>
       
-      <guid>http://wallydrag.github.io/posts/kiss/</guid>
+      <guid>https://deba.dev/posts/kiss/</guid>
       <description>This is the second post in the series of &amp;ldquo;Basic principles of software design&amp;rdquo;. In part 1, we discussed about DRY. Today, we will be knowing about KISS. Yes, you read it right.
 KISS is acronym for &amp;lsquo;Keep it simple stupid&amp;rsquo;. This principle, as simple as it sounds, is not easy to implement. I personally find it correct in so many aspects of life, for me KISS is very philosophical.</description>
     </item>
     
     <item>
       <title>Basic principles of software design: Dry</title>
-      <link>http://wallydrag.github.io/posts/dry/</link>
+      <link>https://deba.dev/posts/dry/</link>
       <pubDate>Thu, 04 Jun 2015 01:50:29 +0530</pubDate>
       
-      <guid>http://wallydrag.github.io/posts/dry/</guid>
+      <guid>https://deba.dev/posts/dry/</guid>
       <description>I am thinking of doing a series of blog posts this time, that underlines the importance of some of the very basic principles of software development. I personally felt that a programmer should be introduced to these principles as early as possible. These fundamentals may seem easy on the eye, but it takes a while to implement them in your code.
 Imagine a situation. Suppose you have a dog at your house, that needs milk every morning.</description>
     </item>
     
     <item>
       <title>Test Driven Development for Dumb Minds</title>
-      <link>http://wallydrag.github.io/posts/test-driven-development-for-dumb-minds/</link>
+      <link>https://deba.dev/posts/test-driven-development-for-dumb-minds/</link>
       <pubDate>Tue, 26 May 2015 01:46:31 +0530</pubDate>
       
-      <guid>http://wallydrag.github.io/posts/test-driven-development-for-dumb-minds/</guid>
+      <guid>https://deba.dev/posts/test-driven-development-for-dumb-minds/</guid>
       <description>The following blog post discusses Test Driven Development and aims for people who want to understand what it is, can get a fair bit of idea after reading the post.
 No, I am not going to begin with a story here. Let&amp;rsquo;s not waste any more time and dive straight into the world of Test Driven Development.
 What is Test Driven Development? You might have heard of the above term in your college course software engineering.</description>

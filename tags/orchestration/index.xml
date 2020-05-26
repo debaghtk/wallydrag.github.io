@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>orchestration on Debashish Ghatak</title>
-    <link>http://wallydrag.github.io/tags/orchestration/</link>
+    <link>https://deba.dev/tags/orchestration/</link>
     <description>Recent content in orchestration on Debashish Ghatak</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Wed, 11 Nov 2015 01:53:33 +0530</lastBuildDate>
     
-	<atom:link href="http://wallydrag.github.io/tags/orchestration/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://deba.dev/tags/orchestration/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ansible</title>
-      <link>http://wallydrag.github.io/posts/ansible/</link>
+      <link>https://deba.dev/posts/ansible/</link>
       <pubDate>Wed, 11 Nov 2015 01:53:33 +0530</pubDate>
       
-      <guid>http://wallydrag.github.io/posts/ansible/</guid>
+      <guid>https://deba.dev/posts/ansible/</guid>
       <description>Imagine a situation where you have two machines, where one is your workstation. Let&amp;rsquo;s call it the management node. The other one is a fresh ubuntu/centos machine which can be bare metal physical box or a cloud instance. Let&amp;rsquo;s say you have to configure this machine into a apache or nginx web server.
 One way to go about this would be to manually ssh into the machine, install the necessary packages and editing the configuration files.</description>
     </item>
