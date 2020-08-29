@@ -10,13 +10,26 @@
 		<atom:link href="https://deba.dev/posts/index.xml" rel="self" type="application/rss+xml" />
 		
 		<item>
-			<title>My Time at Gojek</title>
+			<title>My Time at Gojek [work in progress]</title>
 			<link>https://deba.dev/posts/my-time-at-gojek/</link>
 			<pubDate>Sat, 29 Aug 2020 20:12:13 +0530</pubDate>
 			
 			<guid>https://deba.dev/posts/my-time-at-gojek/</guid>
-			<description></description>
-			<content type="html"><![CDATA[]]></content>
+			<description>My time at Gojek  I need to be the dumbest guy in the room
+ this is what I told myself when I set out from college and began my career. I wanted to be at a place where I am surrounded by smart people, brilliant at their job, willing to learn and willing to teach.
+Fortunately, an internship at Codeignition in the summer of 2014 gave me exactly that.</description>
+			<content type="html"><![CDATA[<h1 id="my-time-at-gojek">My time at Gojek</h1>
+<blockquote>
+<p>I need to be the dumbest guy in the room</p>
+</blockquote>
+<p>this is what I told myself when I set out from college and began my career.
+I wanted to be at a place where I am surrounded by smart people, brilliant at their job, willing to learn and willing to teach.</p>
+<p>Fortunately, an internship at Codeignition in the summer of 2014 gave me exactly that. I found people with proven credentials and wanting to stretch themselves even further, who not only expect nothing less from themselves but also from the people around them.</p>
+<p>Shortly after, I moved to Bangalore where Codeignition would work along with C42 for Gojek. Gojek had launched their mobile app in 2015 but their servers were unable to keep up with the demand. With Sequoia playing the matchmaker role, Gojek became our client and we started consulting for them.</p>
+<p>Inside a residential building in Bangalore, a cohesive unit of 30 people started working on Gojek. We all used to have one single standup. After a few months, Gojek acquired us.</p>
+<p>I did not completely understand what would that mean for myself on a day to day basis. We were pretty small firms at the time, and I know my founders had always been worried to get enough clients so that they can give out our salaries. I thought maybe they and us will have a easier life now. oh boy, I could not have been more wrong.</p>
+<p>What happened next was a roller coaster of a ride, with its fair share of ups and downs. It has been completely fascinating, humbling and full of learning to say the least.</p>
+]]></content>
 		</item>
 		
 		<item>
