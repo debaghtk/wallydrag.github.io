@@ -40,6 +40,15 @@ I wanted to be at a place where I am surrounded by smart people, brilliant at th
 <p>Seeing people actually using something that I built, was a euphoric moments. I had tasted something and I wanted even more of it now.</p>
 <hr>
 <h2 id="allocation-how-high-can-you-go">Allocation: how high can you go</h2>
+<p>The goal of this newly setup team is simple - to achieve 90% booking conversion rate. This statement was part of email written by our then CEO Nadiem Makarim when allocation team was incepted within Gojek.</p>
+<p>This is where I got truly excited about my work. There were engineering problems to solve but the domain itself was fascinating to say the least. We had different products which had their own booking state machines, but all getting fulfilled by the same driver supply.</p>
+<p>At the time, Gojek was doing around 400k bookings completed max on a good day. As part of this team, that number rapidly started growing. I remember whenever I had to take a break from my usual work, I would just open up the business dashboard and start looking at what is going on. A lot of the team members and stakeholders used to be on a call every friday night, seeing the booking completed numbers go up. That was a dream moment for me. I remember when I watched the movie The Social Network and in it was this one scene where all employees of facebook stare at this big screen of total user signups and the number reaches like a million or billion. From that moment, I wanted to experience that feeling. Little did I know that I will get to experience it at such an early stage in my career.</p>
+<p>Within one year, we managed to do 1 million completed bookings daily with booking conversion rate just below 80%.</p>
+<p>My skin in the game increased when I was made tech lead for the surge project. At that time, gojek bookings never charged a surge fee like uber. Simply because we were always in developer crunch.</p>
+<p>I remember there were 6 items that were crucial because of investor expectations and 2 of them had come to our team. One was surge, other was route based allocation. Route based allocation was done by my friend Sartaj while I was made incharge of surge pricing.</p>
+<p>A team of 6 set out to achieve this goal. This was also a very unique problem in surge pricing because of the nature of gojek products and services. All products except for Go-car, had the same supply pool. Thankfully, we had a bunch of smart people who were able to come up with a genius solution to this unique problem. We aligned and got into implementation.</p>
+<p>I still remember when we launched surge pricing for bikes, people inside the org went crazy. It was tough for them to get a gojek when they left office, because of the rush hour. Now, they were getting drivers in a matter of seconds. I felt so proud of myself at that moment. This is exactly why I work, to create value and to make lives of people around me a little bit easier.</p>
+<p>By the time I left the team which is about 1.5 years, Gojek was doing close to 2 million completed orders daily with a booking conversion rate above 80%.</p>
 ]]></content>
 		</item>
 		
