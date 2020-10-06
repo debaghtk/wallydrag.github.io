@@ -49,6 +49,27 @@ I wanted to be at a place where I am surrounded by smart people, brilliant at th
 <p>A team of 6 set out to achieve this goal. This was also a very unique problem in surge pricing because of the nature of gojek products and services. All products except for Go-car, had the same supply pool. Thankfully, we had a bunch of smart people who were able to come up with a genius solution to this unique problem. We aligned and got into implementation.</p>
 <p>I still remember when we launched surge pricing for bikes, people inside the org went crazy. It was tough for them to get a gojek when they left office, because of the rush hour. Now, they were getting drivers in a matter of seconds. I felt so proud of myself at that moment. This is exactly why I work, to create value and to make lives of people around me a little bit easier.</p>
 <p>By the time I left the team which is about 1.5 years, Gojek was doing close to 2 million completed orders daily with a booking conversion rate above 80%.</p>
+<hr>
+<h2 id="atlas">Atlas</h2>
+<blockquote>
+<p>It doesn&rsquo;t make sense to hire smart people and tell them what to do; we hire smart people so they can tell us what to do - Steve Jobs</p>
+</blockquote>
+<p>Since I considered myself smart, I expected myself to have an opinion of what is the problem that needs to be solved, crisply defining that problem statement for others to understand and come up with a solution to get started solving it.</p>
+<p>Atlas was a new beginning for me in many sense. I started working with an entirely new set of people on very different problem statement. This was my first time working in an internal platform team amd challenges were very different to what I had experienced previously.</p>
+<p>The first thing I experienced were consensus/alignment problems. In the past, I had just taken it for granted but now I was facing challenges to bring everyone on the same page.</p>
+<p>I was incharge of solving uptime tracking problem for gojek services and while we were able to build a product for the same, getting it adopted internally was a different problem altogether. I made some classic product mistakes and did not voice out my opinions at a couple of occasions, not my proudest moments overall.</p>
+<p>Soon uptime tracking became this huge problem statement. I will try to explain. Basically at the time, microservices were getting invented left right and center. There was no standardisation and there was zero visibility for people higher up the ladder. How do I bring that visibility? What is it that I should be building that benefits the entire Gojek org and allows us to scale efficiently. I was very naive of an engineer at that time to even realise what am I getting into. I was not able to communicate to my team what are we trying to solve because neither I nor my stakeholders had an idea of what needed to be done. I took it as a failure of myself and could never stop thinking on what exactly is the problem statement. Even after I changed teams and switched to a different problem statement, I could not stop thinking about it. I had experienced failure first time in my professional career and I wanted to rectify it. This is not done, we will get back to this later.</p>
+<hr>
+<h2 id="singapore-launch">Singapore Launch</h2>
+<p>Uber had exited the Singapore region which led Gojek to launch its product in a first world country. Everything happened so quickly. I remember discussing Uber&rsquo;s exit, then discussing that Gojek may enter the market and then deciding on the team which will work on this project. It all happened in 2 weeks. I just love this kind of speed on decision making.</p>
+<p>A team of 6 developers, 1 QA, 1 PM and 2 designers set out for this initiative. This meant frequent travels to Singapore office. I personally had a blast, getting to live in another country for so long. I was able to converse in English with the users and I could feel when the launch was edging closer as to how exciting it is.</p>
+<p>This was different from working on one or two codebases. Our work now spanned across every bit of the architecture that was essential in serving a booking request on our transport app. Scoping it all out, communicating dates so that every other business team can align with their activities like driver onboarding, marketing etc in parallel with the product launch.</p>
+<p>This was the kind of thrilling work which I strive and thrive on and the reason why everyone should work in startups, atleast once in their lifetime.</p>
+<hr>
+<h2 id="kernel---unfinished-business">Kernel - unfinished business</h2>
+<blockquote>
+<p>to hell with circumstances I create opportunities - Bruce Lee</p>
+</blockquote>
 ]]></content>
 		</item>
 		
