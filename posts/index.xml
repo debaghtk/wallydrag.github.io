@@ -84,20 +84,20 @@ Kernel took over as the core infrastructure team of Gojek in January of 2019. Th
 I joined Kernel because I had some unfinished business in Gojek. My previous stint in an internal platform team was not great, the product that I owned at the time was not adopted within the org and soon found its place in the graveyard.</p>
 </li>
 <li>
-<p>started with analytics</p>
+<p>started with analytics
+I started as a lead on the analytics team within kernel at the time, because I thought a lot about why internal platforms team fail and the current problems within the state of engineering org at Gojek. There were no insights about our engineering teams and services. My belief was that such problems can be solved with good analytics and analytics is something on top of which long term engineering strategy can be defined.</p>
 </li>
 <li>
-<p>came up with knowledge graph and aligned with stakeholders on that</p>
+<p>came up with knowledge graph and aligned with stakeholders on that
+After working in the analytics team, I realised because of how things have been traditionally done at Gojek that everything was scattered, and I mean everything. Because of this, my team was consistently working on small stuff everyday like pulling out data to prove/disprove some hypothesis but the process of pulling out data was hard and tedious and one needs to have enough context of Gojek to pull that data out. Not everyone at the team could have done it, only if you have spent atleast 3 years within the company.</p>
 </li>
-<li>
-<p>knowledge graph as strategy for infra as a product</p>
-</li>
-<li>
-<p>building delivery rhythm</p>
-</li>
-<li>
-<p>scaling my managerial self</p>
-</li>
+</ul>
+<p>So to tackle this problem, we came up with the idea of building a knowledge graph of engineering entities within
+Gojek.</p>
+<ul>
+<li>knowledge graph as strategy for infra as a product</li>
+<li>building delivery rhythm</li>
+<li>scaling my managerial self</li>
 </ul>
 ]]></content>
 		</item>
