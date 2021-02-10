@@ -1,0 +1,33 @@
+name: Jekyll site CI
+
+on:
+  push:
+    branches: [ source ]
+
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+        with:
+          submodules: 'recursive'
+
+      # Runs a single command using the runners shell
+      - name: hugo
+        uses: klakegg/actions-hugo@1.0.0
+    
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        
+      - name: Build Hugo site and deploy
+        uses: aormsby/hugo-deploy-to-pages@v2
+        with:
+          hugo_publish_directory: 'public'
+          source_branch: 'source'
+          deploy_branch: 'master'
+          commit_message: 'I like big builds, and I cannot lie.'
