@@ -1,26 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>continuous deployment on Debashish Ghatak</title>
-    <link>https://deba.dev/tags/continuous-deployment/</link>
-    <description>Recent content in continuous deployment on Debashish Ghatak</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 29 Nov 2015 01:53:52 +0530</lastBuildDate>
-    
-	<atom:link href="https://deba.dev/tags/continuous-deployment/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Continuous Delivery Continuous Deployment and Continuous Integration Whats the Difference</title>
-      <link>https://deba.dev/posts/continous-delivery-continous-deployment-and-continous-integration-whats-the-difference/</link>
-      <pubDate>Sun, 29 Nov 2015 01:53:52 +0530</pubDate>
-      
-      <guid>https://deba.dev/posts/continous-delivery-continous-deployment-and-continous-integration-whats-the-difference/</guid>
-      <description>Continuous delivery, continuous deployment and continuous integration are three words that you might be hearing regularly these days. I was initially confused as they seemed pretty similar to me and I bet half of the crowd are confused too. So I put on my superhero mask and googled the three :D
-Turns out, these three, while being really similar and related to each other as well, have pretty subtle differences.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>continuous deployment on Debashish Ghatak</title><link>https://deba.dev/tags/continuous-deployment/</link><description>Recent content in continuous deployment on Debashish Ghatak</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 29 Nov 2015 01:53:52 +0530</lastBuildDate><atom:link href="https://deba.dev/tags/continuous-deployment/index.xml" rel="self" type="application/rss+xml"/><item><title>Continuous Delivery Continuous Deployment and Continuous Integration Whats the Difference</title><link>https://deba.dev/posts/continous-delivery-continous-deployment-and-continous-integration-whats-the-difference/</link><pubDate>Sun, 29 Nov 2015 01:53:52 +0530</pubDate><guid>https://deba.dev/posts/continous-delivery-continous-deployment-and-continous-integration-whats-the-difference/</guid><description>Continuous delivery, continuous deployment and continuous integration are three words that you might be hearing regularly these days. I was initially confused as they seemed pretty similar to me and I bet half of the crowd are confused too. So I put on my superhero mask and googled the three :D
+Turns out, these three, while being really similar and related to each other as well, have pretty subtle differences.</description></item></channel></rss>

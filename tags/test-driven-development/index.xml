@@ -1,27 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>test driven development on Debashish Ghatak</title>
-    <link>https://deba.dev/tags/test-driven-development/</link>
-    <description>Recent content in test driven development on Debashish Ghatak</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 26 May 2015 01:46:31 +0530</lastBuildDate>
-    
-	<atom:link href="https://deba.dev/tags/test-driven-development/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Test Driven Development for Dumb Minds</title>
-      <link>https://deba.dev/posts/test-driven-development-for-dumb-minds/</link>
-      <pubDate>Tue, 26 May 2015 01:46:31 +0530</pubDate>
-      
-      <guid>https://deba.dev/posts/test-driven-development-for-dumb-minds/</guid>
-      <description>The following blog post discusses Test Driven Development and aims for people who want to understand what it is, can get a fair bit of idea after reading the post.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>test driven development on Debashish Ghatak</title><link>https://deba.dev/tags/test-driven-development/</link><description>Recent content in test driven development on Debashish Ghatak</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 26 May 2015 01:46:31 +0530</lastBuildDate><atom:link href="https://deba.dev/tags/test-driven-development/index.xml" rel="self" type="application/rss+xml"/><item><title>Test Driven Development for Dumb Minds</title><link>https://deba.dev/posts/test-driven-development-for-dumb-minds/</link><pubDate>Tue, 26 May 2015 01:46:31 +0530</pubDate><guid>https://deba.dev/posts/test-driven-development-for-dumb-minds/</guid><description>The following blog post discusses Test Driven Development and aims for people who want to understand what it is, can get a fair bit of idea after reading the post.
 No, I am not going to begin with a story here. Let&amp;rsquo;s not waste any more time and dive straight into the world of Test Driven Development.
-What is Test Driven Development? You might have heard of the above term in your college course software engineering.</description>
-    </item>
-    
-  </channel>
-</rss>
+What is Test Driven Development? You might have heard of the above term in your college course software engineering.</description></item></channel></rss>

@@ -1,26 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>kiss on Debashish Ghatak</title>
-    <link>https://deba.dev/tags/kiss/</link>
-    <description>Recent content in kiss on Debashish Ghatak</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 08 Jun 2015 01:52:55 +0530</lastBuildDate>
-    
-	<atom:link href="https://deba.dev/tags/kiss/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Basic principles of software design: Kiss</title>
-      <link>https://deba.dev/posts/kiss/</link>
-      <pubDate>Mon, 08 Jun 2015 01:52:55 +0530</pubDate>
-      
-      <guid>https://deba.dev/posts/kiss/</guid>
-      <description>This is the second post in the series of &amp;ldquo;Basic principles of software design&amp;rdquo;. In part 1, we discussed about DRY. Today, we will be knowing about KISS. Yes, you read it right.
-KISS is acronym for &amp;lsquo;Keep it simple stupid&amp;rsquo;. This principle, as simple as it sounds, is not easy to implement. I personally find it correct in so many aspects of life, for me KISS is very philosophical.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>kiss on Debashish Ghatak</title><link>https://deba.dev/tags/kiss/</link><description>Recent content in kiss on Debashish Ghatak</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 08 Jun 2015 01:52:55 +0530</lastBuildDate><atom:link href="https://deba.dev/tags/kiss/index.xml" rel="self" type="application/rss+xml"/><item><title>Basic principles of software design: Kiss</title><link>https://deba.dev/posts/kiss/</link><pubDate>Mon, 08 Jun 2015 01:52:55 +0530</pubDate><guid>https://deba.dev/posts/kiss/</guid><description>This is the second post in the series of &amp;ldquo;Basic principles of software design&amp;rdquo;. In part 1, we discussed about DRY. Today, we will be knowing about KISS. Yes, you read it right.
+KISS is acronym for &amp;lsquo;Keep it simple stupid&amp;rsquo;. This principle, as simple as it sounds, is not easy to implement. I personally find it correct in so many aspects of life, for me KISS is very philosophical.</description></item></channel></rss>

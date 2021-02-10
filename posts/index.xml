@@ -1,24 +1,6 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>Posts on Debashish Ghatak</title>
-		<link>https://deba.dev/posts/</link>
-		<description>Recent content in Posts on Debashish Ghatak</description>
-		<generator>Hugo -- gohugo.io</generator>
-		<language>en-us</language>
-		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-		<lastBuildDate>Sat, 29 Aug 2020 20:12:13 +0530</lastBuildDate>
-		<atom:link href="https://deba.dev/posts/index.xml" rel="self" type="application/rss+xml" />
-		
-		<item>
-			<title>My Time at Gojek [work in progress]</title>
-			<link>https://deba.dev/posts/my-time-at-gojek/</link>
-			<pubDate>Sat, 29 Aug 2020 20:12:13 +0530</pubDate>
-			
-			<guid>https://deba.dev/posts/my-time-at-gojek/</guid>
-			<description>I need to be the dumbest guy in the room
- this is what I told myself when I set out from college and began my career. I wanted to be at a place where I am surrounded by smart people, brilliant at their job, willing to learn and willing to teach.
-Fortunately, an internship at Codeignition in the summer of 2014 gave me exactly that. I found people with proven credentials and wanting to stretch themselves even further, who not only expect nothing less from themselves but also from the people around them.</description>
-			<content type="html"><![CDATA[<blockquote>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Debashish Ghatak</title><link>https://deba.dev/posts/</link><description>Recent content in Posts on Debashish Ghatak</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 29 Aug 2020 20:12:13 +0530</lastBuildDate><atom:link href="https://deba.dev/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>My Time at Gojek [work in progress]</title><link>https://deba.dev/posts/my-time-at-gojek/</link><pubDate>Sat, 29 Aug 2020 20:12:13 +0530</pubDate><guid>https://deba.dev/posts/my-time-at-gojek/</guid><description>I need to be the dumbest guy in the room
+this is what I told myself when I set out from college and began my career. I wanted to be at a place where I am surrounded by smart people, brilliant at their job, willing to learn and willing to teach.
+Fortunately, an internship at Codeignition in the summer of 2014 gave me exactly that. I found people with proven credentials and wanting to stretch themselves even further, who not only expect nothing less from themselves but also from the people around them.</description><content type="html"><![CDATA[<blockquote>
 <p>I need to be the dumbest guy in the room</p>
 </blockquote>
 <p>this is what I told myself when I set out from college and began my career.
@@ -88,18 +70,8 @@ I wanted to be at a place where I am surrounded by smart people, brilliant at th
 <li>building delivery rhythm</li>
 <li>scaling my managerial self</li>
 </ul>
-]]></content>
-		</item>
-		
-		<item>
-			<title>2018 in Review</title>
-			<link>https://deba.dev/posts/2018-in-review/</link>
-			<pubDate>Tue, 09 Apr 2019 02:09:54 +0530</pubDate>
-			
-			<guid>https://deba.dev/posts/2018-in-review/</guid>
-			<description>Just when I was having a sound sleep, I abruptly woke up. There were fireworks outside. So many that they woke me up and I am in no way a light sleeper. It was 12:15 AM Jan 1 2018.
-I just missed new year countdown, and I was in Berlin. On a trip. All the plans of how amazing the new year would go in vain. But wait this was Berlin.</description>
-			<content type="html"><![CDATA[<p>Just when I was having a sound sleep, I abruptly woke up. There were fireworks outside.
+]]></content></item><item><title>2018 in Review</title><link>https://deba.dev/posts/2018-in-review/</link><pubDate>Tue, 09 Apr 2019 02:09:54 +0530</pubDate><guid>https://deba.dev/posts/2018-in-review/</guid><description>Just when I was having a sound sleep, I abruptly woke up. There were fireworks outside. So many that they woke me up and I am in no way a light sleeper. It was 12:15 AM Jan 1 2018.
+I just missed new year countdown, and I was in Berlin. On a trip. All the plans of how amazing the new year would go in vain. But wait this was Berlin.</description><content type="html"><![CDATA[<p>Just when I was having a sound sleep, I abruptly woke up. There were fireworks outside.
 So many that they woke me up and I am in no way a light sleeper. It was 12:15 AM Jan 1 2018.</p>
 <p>I just missed new year countdown, and I was in Berlin. On a trip.
 All the plans of how amazing the new year would go in vain. But wait this was Berlin.
@@ -142,19 +114,9 @@ Whenever I would be sitting idle, I made sure I read that book instead of browsi
 <p>And most importantly, there was a hidden insight behind all this. (I just love the word insight) The insight was my idea of time. I realised that to be good at something, you need to be consistent, you need to put in the time. That time can be in weeks or months. That may seem like a lot sometimes, but trust me when you look back at things in a wider timeline, those are tiny.</p>
 <p>Let me give you an example. Imagine I set myself a goal of reading books. I say to myself that I will read 1 book every month. That may do not seem very bold at all. And it is not. But if I keep doing that, I would have read 60 books by the end of 5th year and you know what reading 60 books is still way better than not reading a single book. Where I think people go wrong is they look at the best people around themselves and set a very ambitious goal like in this context can be 60 books every year. And many people fail and most of them just give up. Instead, set a very simple goal, something that you think is achievable and requires minimum effort. Build the habit, invest in that. It takes time and its worth it.</p>
 <p>Anyways, 2018 has really been a very important year in my life. And hopefully, 2019 would be even better.</p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Irb vs Rails Console Whats the Difference</title>
-			<link>https://deba.dev/posts/irb-vs-rails-console-whats-the-difference/</link>
-			<pubDate>Sun, 19 Jun 2016 01:54:02 +0530</pubDate>
-			
-			<guid>https://deba.dev/posts/irb-vs-rails-console-whats-the-difference/</guid>
-			<description>Every ruby/rails programmer knows how much valuable are friends like irb and rails console. I particularly am very fond of them, because any time I want to try something, I instantly use them. You also must be aware of bundle console and bundle exec irb.
+]]></content></item><item><title>Irb vs Rails Console Whats the Difference</title><link>https://deba.dev/posts/irb-vs-rails-console-whats-the-difference/</link><pubDate>Sun, 19 Jun 2016 01:54:02 +0530</pubDate><guid>https://deba.dev/posts/irb-vs-rails-console-whats-the-difference/</guid><description>Every ruby/rails programmer knows how much valuable are friends like irb and rails console. I particularly am very fond of them, because any time I want to try something, I instantly use them. You also must be aware of bundle console and bundle exec irb.
 So, actually we have four such tools, but what is the difference between all four of them, if any.
-irb vs bundle exec irb vs bundle console vs rails console irb irb is just plain simple ruby console.</description>
-			<content type="html"><![CDATA[<p>Every ruby/rails programmer knows how much valuable are friends like
+irb vs bundle exec irb vs bundle console vs rails console irb irb is just plain simple ruby console.</description><content type="html"><![CDATA[<p>Every ruby/rails programmer knows how much valuable are friends like
 <strong><code>irb</code></strong> and <strong><code>rails console</code></strong>. I particularly am very fond of them, because
 any time I want to try something, I instantly use them. You also must be
 aware of <strong><code>bundle console</code></strong> and <strong><code>bundle exec irb</code></strong>.</p>
@@ -189,18 +151,8 @@ everything works the way you would expect. Its a real life saver, trust
 me on that. This is most helpful when you are working on a rails app.</p>
 <p><em>Tip 2 - if you do <strong><code>require_relative config/environment.rb</code></strong> inside the
 console of <code>bundle console</code>, you would get the equivalent of <strong><code>rails console</code></strong></em></p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Continuous Delivery Continuous Deployment and Continuous Integration Whats the Difference</title>
-			<link>https://deba.dev/posts/continous-delivery-continous-deployment-and-continous-integration-whats-the-difference/</link>
-			<pubDate>Sun, 29 Nov 2015 01:53:52 +0530</pubDate>
-			
-			<guid>https://deba.dev/posts/continous-delivery-continous-deployment-and-continous-integration-whats-the-difference/</guid>
-			<description>Continuous delivery, continuous deployment and continuous integration are three words that you might be hearing regularly these days. I was initially confused as they seemed pretty similar to me and I bet half of the crowd are confused too. So I put on my superhero mask and googled the three :D
-Turns out, these three, while being really similar and related to each other as well, have pretty subtle differences.</description>
-			<content type="html"><![CDATA[<p>Continuous delivery, continuous deployment and continuous integration
+]]></content></item><item><title>Continuous Delivery Continuous Deployment and Continuous Integration Whats the Difference</title><link>https://deba.dev/posts/continous-delivery-continous-deployment-and-continous-integration-whats-the-difference/</link><pubDate>Sun, 29 Nov 2015 01:53:52 +0530</pubDate><guid>https://deba.dev/posts/continous-delivery-continous-deployment-and-continous-integration-whats-the-difference/</guid><description>Continuous delivery, continuous deployment and continuous integration are three words that you might be hearing regularly these days. I was initially confused as they seemed pretty similar to me and I bet half of the crowd are confused too. So I put on my superhero mask and googled the three :D
+Turns out, these three, while being really similar and related to each other as well, have pretty subtle differences.</description><content type="html"><![CDATA[<p>Continuous delivery, continuous deployment and continuous integration
 are three words that you might be hearing regularly these days. I was
 initially confused as they seemed pretty similar to me and I bet half of
 the crowd are confused too. So I put on my superhero mask and googled
@@ -239,18 +191,8 @@ attaching some links for further, if you just have some time to kill.</p>
 <li><a href="http://martinfowler.com/bliki/ContinuousDelivery.html">Martin Fowler&rsquo;s post on Continuous Delivery</a></li>
 <li><a href="http://www.martinfowler.com/articles/continuousIntegration.html">Martin Fowler&rsquo;s post on Continuous Integration</a></li>
 </ul>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Ansible</title>
-			<link>https://deba.dev/posts/ansible/</link>
-			<pubDate>Wed, 11 Nov 2015 01:53:33 +0530</pubDate>
-			
-			<guid>https://deba.dev/posts/ansible/</guid>
-			<description>Imagine a situation where you have two machines, where one is your workstation. Let&amp;rsquo;s call it the management node. The other one is a fresh ubuntu/centos machine which can be bare metal physical box or a cloud instance. Let&amp;rsquo;s say you have to configure this machine into a apache or nginx web server.
-One way to go about this would be to manually ssh into the machine, install the necessary packages and editing the configuration files.</description>
-			<content type="html"><![CDATA[<p>Imagine a situation where you have two machines, where one is your
+]]></content></item><item><title>Ansible</title><link>https://deba.dev/posts/ansible/</link><pubDate>Wed, 11 Nov 2015 01:53:33 +0530</pubDate><guid>https://deba.dev/posts/ansible/</guid><description>Imagine a situation where you have two machines, where one is your workstation. Let&amp;rsquo;s call it the management node. The other one is a fresh ubuntu/centos machine which can be bare metal physical box or a cloud instance. Let&amp;rsquo;s say you have to configure this machine into a apache or nginx web server.
+One way to go about this would be to manually ssh into the machine, install the necessary packages and editing the configuration files.</description><content type="html"><![CDATA[<p>Imagine a situation where you have two machines, where one is your
 workstation. Let&rsquo;s call it the management node. The other one is a fresh
 ubuntu/centos machine which can be bare metal physical box or a cloud
 instance. Let&rsquo;s say you have to configure this machine into a apache or
@@ -325,17 +267,7 @@ ssh-trusts into them and performs the tasks listed in the playbook.</p>
 <ul>
 <li><a href="http://docs.ansible.com/">Ansible Docs</a></li>
 </ul>
-]]></content>
-		</item>
-		
-		<item>
-			<title>SOLID</title>
-			<link>https://deba.dev/posts/solid/</link>
-			<pubDate>Tue, 07 Jul 2015 01:53:25 +0530</pubDate>
-			
-			<guid>https://deba.dev/posts/solid/</guid>
-			<description>Well Codeignition has added some new faces recently, and yeah I am one of them. I just passed out from IIT Jodhpur and got in here. And its been a huge learning experience since. Writing code is not the same now. Now I need to impose a great deal of thought on the structure of the code, and yes, SOLID has been a big help. So let&amp;rsquo;s get back to the basics and see what the fuss it is.</description>
-			<content type="html"><![CDATA[<p>Well Codeignition has added some new faces recently, and yeah I am one
+]]></content></item><item><title>SOLID</title><link>https://deba.dev/posts/solid/</link><pubDate>Tue, 07 Jul 2015 01:53:25 +0530</pubDate><guid>https://deba.dev/posts/solid/</guid><description>Well Codeignition has added some new faces recently, and yeah I am one of them. I just passed out from IIT Jodhpur and got in here. And its been a huge learning experience since. Writing code is not the same now. Now I need to impose a great deal of thought on the structure of the code, and yes, SOLID has been a big help. So let&amp;rsquo;s get back to the basics and see what the fuss it is.</description><content type="html"><![CDATA[<p>Well Codeignition has added some new faces recently, and yeah I am one
 of them. I just passed out from IIT Jodhpur and got in here. And its
 been a huge learning experience since. Writing code is not the same now.
 Now I need to impose a great deal of thought on the structure of the
@@ -570,21 +502,11 @@ changing the <code>Password Reminder</code> class. See, we achieved reduced
 coupling and we respected our OCP too.</p>
 <p>Further Reading -</p>
 <ul>
-<li><a href="http://code.tutsplus.com/series/the-solid-principles--cms-634">Tuts Plus&rsquo; tutorial series on SOLID</a></li>
+<li><a href="http://code.tutsplus.com/series/the-solid-principles--cms-634">Tuts Plus' tutorial series on SOLID</a></li>
 <li><a href="http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod">Uncle Bob&rsquo;s webpage on SOLID</a></li>
 </ul>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Basic Principles of software design: Yagni</title>
-			<link>https://deba.dev/posts/yagni/</link>
-			<pubDate>Fri, 12 Jun 2015 01:53:00 +0530</pubDate>
-			
-			<guid>https://deba.dev/posts/yagni/</guid>
-			<description>Welcome to third and final part of the series &amp;ldquo;Basic Principles of software design&amp;rdquo;. In this part, we will be knowing about YAGNI, yet another simple but realistic and powerful concept.
-You aren&amp;rsquo;t gonna need it or YAGNI in short states that a new feature in a code should not be added, unless and untill it is absolutely necessary. It seriously discourages the practices of adding features that are not necessary at that present point of time, but the programmer thinks it might be useful in future.</description>
-			<content type="html"><![CDATA[<p>Welcome to third and final part of the series &ldquo;Basic Principles of
+]]></content></item><item><title>Basic Principles of software design: Yagni</title><link>https://deba.dev/posts/yagni/</link><pubDate>Fri, 12 Jun 2015 01:53:00 +0530</pubDate><guid>https://deba.dev/posts/yagni/</guid><description>Welcome to third and final part of the series &amp;ldquo;Basic Principles of software design&amp;rdquo;. In this part, we will be knowing about YAGNI, yet another simple but realistic and powerful concept.
+You aren&amp;rsquo;t gonna need it or YAGNI in short states that a new feature in a code should not be added, unless and untill it is absolutely necessary. It seriously discourages the practices of adding features that are not necessary at that present point of time, but the programmer thinks it might be useful in future.</description><content type="html"><![CDATA[<p>Welcome to third and final part of the series &ldquo;Basic Principles of
 software design&rdquo;. In this part, we will be knowing about YAGNI, yet
 another simple but realistic and powerful concept.</p>
 <p>You aren&rsquo;t gonna need it or YAGNI in short states that a new feature in
@@ -619,18 +541,8 @@ detailed information. ( <a href="http://martinfowler.com/bliki/Yagni.html">http:
 Adding extra features beyond necessity always will make the design
 complex. Remember KISS.</p>
 <p>Concentrate on what is schedueled for today.</p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Basic principles of software design: Kiss</title>
-			<link>https://deba.dev/posts/kiss/</link>
-			<pubDate>Mon, 08 Jun 2015 01:52:55 +0530</pubDate>
-			
-			<guid>https://deba.dev/posts/kiss/</guid>
-			<description>This is the second post in the series of &amp;ldquo;Basic principles of software design&amp;rdquo;. In part 1, we discussed about DRY. Today, we will be knowing about KISS. Yes, you read it right.
-KISS is acronym for &amp;lsquo;Keep it simple stupid&amp;rsquo;. This principle, as simple as it sounds, is not easy to implement. I personally find it correct in so many aspects of life, for me KISS is very philosophical.</description>
-			<content type="html"><![CDATA[<p>This is the second post in the series of &ldquo;Basic principles of software
+]]></content></item><item><title>Basic principles of software design: Kiss</title><link>https://deba.dev/posts/kiss/</link><pubDate>Mon, 08 Jun 2015 01:52:55 +0530</pubDate><guid>https://deba.dev/posts/kiss/</guid><description>This is the second post in the series of &amp;ldquo;Basic principles of software design&amp;rdquo;. In part 1, we discussed about DRY. Today, we will be knowing about KISS. Yes, you read it right.
+KISS is acronym for &amp;lsquo;Keep it simple stupid&amp;rsquo;. This principle, as simple as it sounds, is not easy to implement. I personally find it correct in so many aspects of life, for me KISS is very philosophical.</description><content type="html"><![CDATA[<p>This is the second post in the series of &ldquo;Basic principles of software
 design&rdquo;. In part 1, we discussed about DRY. Today, we will be knowing
 about KISS. Yes, you read it right.</p>
 <p>KISS is acronym for &lsquo;Keep it simple stupid&rsquo;. This principle, as simple
@@ -664,18 +576,8 @@ such as DRY and SOLID. If you have to unDRY certain parts of your code,
 and if that way, it becomes simple, KISS will allow that.</p>
 <p>When in doubt, just remember this quote from ALbert Einstein: &lsquo;Things
 should be made simple but not simpler.&rsquo;</p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Basic principles of software design: Dry</title>
-			<link>https://deba.dev/posts/dry/</link>
-			<pubDate>Thu, 04 Jun 2015 01:50:29 +0530</pubDate>
-			
-			<guid>https://deba.dev/posts/dry/</guid>
-			<description>I am thinking of doing a series of blog posts this time, that underlines the importance of some of the very basic principles of software development. I personally felt that a programmer should be introduced to these principles as early as possible. These fundamentals may seem easy on the eye, but it takes a while to implement them in your code.
-Imagine a situation. Suppose you have a dog at your house, that needs milk every morning.</description>
-			<content type="html"><![CDATA[<p>I am thinking of doing a series of blog posts this time, that
+]]></content></item><item><title>Basic principles of software design: Dry</title><link>https://deba.dev/posts/dry/</link><pubDate>Thu, 04 Jun 2015 01:50:29 +0530</pubDate><guid>https://deba.dev/posts/dry/</guid><description>I am thinking of doing a series of blog posts this time, that underlines the importance of some of the very basic principles of software development. I personally felt that a programmer should be introduced to these principles as early as possible. These fundamentals may seem easy on the eye, but it takes a while to implement them in your code.
+Imagine a situation. Suppose you have a dog at your house, that needs milk every morning.</description><content type="html"><![CDATA[<p>I am thinking of doing a series of blog posts this time, that
 underlines the importance of some of the very basic principles of
 software development. I personally felt that a programmer should be
 introduced to these principles as early as possible. These fundamentals
@@ -726,19 +628,9 @@ smaller parts and let them communicate with each other. If you have to manage
 larger projects, organizing them into components and using DRY within the
 components is a good idea.</p>
 <p>And while you write code, be lazy!!</p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Test Driven Development for Dumb Minds</title>
-			<link>https://deba.dev/posts/test-driven-development-for-dumb-minds/</link>
-			<pubDate>Tue, 26 May 2015 01:46:31 +0530</pubDate>
-			
-			<guid>https://deba.dev/posts/test-driven-development-for-dumb-minds/</guid>
-			<description>The following blog post discusses Test Driven Development and aims for people who want to understand what it is, can get a fair bit of idea after reading the post.
+]]></content></item><item><title>Test Driven Development for Dumb Minds</title><link>https://deba.dev/posts/test-driven-development-for-dumb-minds/</link><pubDate>Tue, 26 May 2015 01:46:31 +0530</pubDate><guid>https://deba.dev/posts/test-driven-development-for-dumb-minds/</guid><description>The following blog post discusses Test Driven Development and aims for people who want to understand what it is, can get a fair bit of idea after reading the post.
 No, I am not going to begin with a story here. Let&amp;rsquo;s not waste any more time and dive straight into the world of Test Driven Development.
-What is Test Driven Development? You might have heard of the above term in your college course software engineering.</description>
-			<content type="html"><![CDATA[<p>The following blog post discusses Test Driven Development and aims for
+What is Test Driven Development? You might have heard of the above term in your college course software engineering.</description><content type="html"><![CDATA[<p>The following blog post discusses Test Driven Development and aims for
 people who want to understand what it is, can get a fair bit of idea
 after reading the post.</p>
 <p>No, I am not going to begin with a story here. Let&rsquo;s not waste any more
@@ -833,11 +725,7 @@ else is still working.</p>
 tests still pass.</p>
 <p>Repeat the cycle 2-3-4. Each cycle should be very short.</p>
 <h2 id="conclusion">Conclusion</h2>
-<p>No fairy tale ending here. Just go out and get your hands&rsquo; dirty with
+<p>No fairy tale ending here. Just go out and get your hands' dirty with
 TDD. Only practicing to write code by TDD guidelines will make you
 understand its concepts better. Run away fella, run away now.</p>
-]]></content>
-		</item>
-		
-	</channel>
-</rss>
+]]></content></item></channel></rss>

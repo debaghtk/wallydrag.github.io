@@ -1,26 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>yagni on Debashish Ghatak</title>
-    <link>https://deba.dev/tags/yagni/</link>
-    <description>Recent content in yagni on Debashish Ghatak</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Fri, 12 Jun 2015 01:53:00 +0530</lastBuildDate>
-    
-	<atom:link href="https://deba.dev/tags/yagni/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Basic Principles of software design: Yagni</title>
-      <link>https://deba.dev/posts/yagni/</link>
-      <pubDate>Fri, 12 Jun 2015 01:53:00 +0530</pubDate>
-      
-      <guid>https://deba.dev/posts/yagni/</guid>
-      <description>Welcome to third and final part of the series &amp;ldquo;Basic Principles of software design&amp;rdquo;. In this part, we will be knowing about YAGNI, yet another simple but realistic and powerful concept.
-You aren&amp;rsquo;t gonna need it or YAGNI in short states that a new feature in a code should not be added, unless and untill it is absolutely necessary. It seriously discourages the practices of adding features that are not necessary at that present point of time, but the programmer thinks it might be useful in future.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>yagni on Debashish Ghatak</title><link>https://deba.dev/tags/yagni/</link><description>Recent content in yagni on Debashish Ghatak</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 12 Jun 2015 01:53:00 +0530</lastBuildDate><atom:link href="https://deba.dev/tags/yagni/index.xml" rel="self" type="application/rss+xml"/><item><title>Basic Principles of software design: Yagni</title><link>https://deba.dev/posts/yagni/</link><pubDate>Fri, 12 Jun 2015 01:53:00 +0530</pubDate><guid>https://deba.dev/posts/yagni/</guid><description>Welcome to third and final part of the series &amp;ldquo;Basic Principles of software design&amp;rdquo;. In this part, we will be knowing about YAGNI, yet another simple but realistic and powerful concept.
+You aren&amp;rsquo;t gonna need it or YAGNI in short states that a new feature in a code should not be added, unless and untill it is absolutely necessary. It seriously discourages the practices of adding features that are not necessary at that present point of time, but the programmer thinks it might be useful in future.</description></item></channel></rss>

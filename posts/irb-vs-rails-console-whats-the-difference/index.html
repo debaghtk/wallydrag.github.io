@@ -1,164 +1,30 @@
-<!DOCTYPE html>
-<html lang="en-us">
-
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<meta name="theme-color" content="#494f5c">
-	<meta name="msapplication-TileColor" content="#494f5c">
-<meta itemprop="name" content="Irb vs Rails Console Whats the Difference">
-<meta itemprop="description" content="Every ruby/rails programmer knows how much valuable are friends like irb and rails console. I particularly am very fond of them, because any time I want to try something, I instantly use them. You also must be aware of bundle console and bundle exec irb.
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=theme-color content="#494f5c"><meta name=msapplication-TileColor content="#494f5c"><meta itemprop=name content="Irb vs Rails Console Whats the Difference"><meta itemprop=description content="Every ruby/rails programmer knows how much valuable are friends like irb and rails console. I particularly am very fond of them, because any time I want to try something, I instantly use them. You also must be aware of bundle console and bundle exec irb.
 So, actually we have four such tools, but what is the difference between all four of them, if any.
-irb vs bundle exec irb vs bundle console vs rails console irb irb is just plain simple ruby console.">
-<meta itemprop="datePublished" content="2016-06-19T01:54:02&#43;05:30" />
-<meta itemprop="dateModified" content="2016-06-19T01:54:02&#43;05:30" />
-<meta itemprop="wordCount" content="357">
-
-
-
-<meta itemprop="keywords" content="ruby,rails,irb,rails console,software development," /><meta property="og:title" content="Irb vs Rails Console Whats the Difference" />
-<meta property="og:description" content="Every ruby/rails programmer knows how much valuable are friends like irb and rails console. I particularly am very fond of them, because any time I want to try something, I instantly use them. You also must be aware of bundle console and bundle exec irb.
+irb vs bundle exec irb vs bundle console vs rails console irb irb is just plain simple ruby console."><meta itemprop=datePublished content="2016-06-19T01:54:02+05:30"><meta itemprop=dateModified content="2016-06-19T01:54:02+05:30"><meta itemprop=wordCount content="357"><meta itemprop=keywords content="ruby,rails,irb,rails console,software development,"><meta property="og:title" content="Irb vs Rails Console Whats the Difference"><meta property="og:description" content="Every ruby/rails programmer knows how much valuable are friends like irb and rails console. I particularly am very fond of them, because any time I want to try something, I instantly use them. You also must be aware of bundle console and bundle exec irb.
 So, actually we have four such tools, but what is the difference between all four of them, if any.
-irb vs bundle exec irb vs bundle console vs rails console irb irb is just plain simple ruby console." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://deba.dev/posts/irb-vs-rails-console-whats-the-difference/" />
-<meta property="article:published_time" content="2016-06-19T01:54:02+05:30" />
-<meta property="article:modified_time" content="2016-06-19T01:54:02+05:30" />
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Irb vs Rails Console Whats the Difference"/>
-<meta name="twitter:description" content="Every ruby/rails programmer knows how much valuable are friends like irb and rails console. I particularly am very fond of them, because any time I want to try something, I instantly use them. You also must be aware of bundle console and bundle exec irb.
+irb vs bundle exec irb vs bundle console vs rails console irb irb is just plain simple ruby console."><meta property="og:type" content="article"><meta property="og:url" content="https://deba.dev/posts/irb-vs-rails-console-whats-the-difference/"><meta property="article:published_time" content="2016-06-19T01:54:02+05:30"><meta property="article:modified_time" content="2016-06-19T01:54:02+05:30"><meta name=twitter:card content="summary"><meta name=twitter:title content="Irb vs Rails Console Whats the Difference"><meta name=twitter:description content="Every ruby/rails programmer knows how much valuable are friends like irb and rails console. I particularly am very fond of them, because any time I want to try something, I instantly use them. You also must be aware of bundle console and bundle exec irb.
 So, actually we have four such tools, but what is the difference between all four of them, if any.
-irb vs bundle exec irb vs bundle console vs rails console irb irb is just plain simple ruby console."/>
-
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/site.webmanifest">
-	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
-	<link rel="shortcut icon" href="/favicon.ico">
-
-	<title>Irb vs Rails Console Whats the Difference</title>
-	<link rel="stylesheet" href="https://deba.dev/css/style.min.657bcb7af31123e4156b1a3d2ff60a636717e54ead74f882136b5114cf72b55e.css" integrity="sha256-ZXvLevMRI+QVaxo9L/YKY2cX5U6tdPiCE2tRFM9ytV4=" crossorigin="anonymous">
-	
-</head>
-
-<body id="page">
-	
-	<header id="site-header" class="animated slideInUp faster">
-		<div class="hdr-wrapper section-inner">
-			<div class="hdr-left">
-				<div class="site-branding">
-					<a href="https://deba.dev">Debashish Ghatak</a>
-				</div>
-				<nav class="site-nav hide-in-mobile">
-					
-				<a href="https://deba.dev/posts/">Posts</a>
-				<a href="https://deba.dev/about/">About</a>
-
-				</nav>
-			</div>
-			<div class="hdr-right hdr-icons">
-				<span class="hdr-social hide-in-mobile"><a href="https://twitter.com/wallydrag8" target="_blank" rel="noopener me" title="Twitter"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a><a href="https://github.com/wallydrag" target="_blank" rel="noopener me" title="Github"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a></span><button id="menu-btn" class="hdr-btn" title="Menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
-			</div>
-		</div>
-	</header>
-	<div id="mobile-menu" class="animated fast">
-		<ul>
-			<li><a href="https://deba.dev/posts/">Posts</a></li>
-			<li><a href="https://deba.dev/about/">About</a></li>
-		</ul>
-	</div>
-
-
-	<main class="site-main section-inner animated fadeIn faster">
-		<article class="thin">
-			<header class="post-header">
-				<div class="post-meta"><span>Jun 19, 2016</span></div>
-				<h1>Irb vs Rails Console Whats the Difference</h1>
-			</header>
-			<div class="content">
-				<p>Every ruby/rails programmer knows how much valuable are friends like
+irb vs bundle exec irb vs bundle console vs rails console irb irb is just plain simple ruby console."><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel=manifest href=/site.webmanifest><link rel=mask-icon href=/safari-pinned-tab.svg color><link rel="shortcut icon" href=/favicon.ico><title>Irb vs Rails Console Whats the Difference</title><link rel=stylesheet href=https://deba.dev/css/style.min.657bcb7af31123e4156b1a3d2ff60a636717e54ead74f882136b5114cf72b55e.css integrity="sha256-ZXvLevMRI+QVaxo9L/YKY2cX5U6tdPiCE2tRFM9ytV4=" crossorigin=anonymous></head><body id=page><header id=site-header class="animated slideInUp"><div class="hdr-wrapper section-inner"><div class=hdr-left><div class=site-branding><a href=https://deba.dev>Debashish Ghatak</a></div><nav class="site-nav hide-in-mobile"><a href=https://deba.dev/posts/>Posts</a>
+<a href=https://deba.dev/about/>About</a></nav></div><div class="hdr-right hdr-icons"><span class="hdr-social hide-in-mobile"><a href=https://twitter.com/wallydrag8 target=_blank rel="noopener me" title=Twitter><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9.0 01-3.14 1.53 4.48 4.48.0 00-7.86 3v1A10.66 10.66.0 013 4s-4 9 5 13a11.64 11.64.0 01-7 2c9 5 20 0 20-11.5a4.5 4.5.0 00-.08-.83A7.72 7.72.0 0023 3z"/></svg></a><a href=https://github.com/wallydrag target=_blank rel="noopener me" title=Github><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37.0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44.0 0020 4.77 5.07 5.07.0 0019.91 1S18.73.65 16 2.48a13.38 13.38.0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07.0 005 4.77a5.44 5.44.0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37.0 009 18.13V22"/></svg></a></span><button id=menu-btn class=hdr-btn title=Menu><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button></div></div></header><div id=mobile-menu class="animated fast"><ul><li><a href=https://deba.dev/posts/>Posts</a></li><li><a href=https://deba.dev/about/>About</a></li></ul></div><main class="site-main section-inner animated fadeIn faster"><article class=thin><header class=post-header><div class=post-meta><span>Jun 19, 2016</span></div><h1>Irb vs Rails Console Whats the Difference</h1></header><div class=content><p>Every ruby/rails programmer knows how much valuable are friends like
 <strong><code>irb</code></strong> and <strong><code>rails console</code></strong>. I particularly am very fond of them, because
 any time I want to try something, I instantly use them. You also must be
-aware of <strong><code>bundle console</code></strong> and <strong><code>bundle exec irb</code></strong>.</p>
-<p>So, actually we have four such tools, but what is the difference between
-all four of them, if any.</p>
-<h3 id="irb-vs-bundle-exec-irb-vs-bundle-console-vs-rails-console">irb vs bundle exec irb vs bundle console vs rails console<a href="#irb-vs-bundle-exec-irb-vs-bundle-console-vs-rails-console" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
-<h4 id="irb">irb<a href="#irb" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h4>
-<p><strong><code>irb</code></strong> is just plain simple ruby console. What I mean by that is it just
+aware of <strong><code>bundle console</code></strong> and <strong><code>bundle exec irb</code></strong>.</p><p>So, actually we have four such tools, but what is the difference between
+all four of them, if any.</p><h3 id=irb-vs-bundle-exec-irb-vs-bundle-console-vs-rails-console>irb vs bundle exec irb vs bundle console vs rails console<a href=#irb-vs-bundle-exec-irb-vs-bundle-console-vs-rails-console class=anchor aria-hidden=true><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 015 5 5 5 0 01-5 5h-3m-6 0H6a5 5 0 01-5-5 5 5 0 015-5h3"/><line x1="8" y1="12" x2="16" y2="12"/></svg></a></h3><h4 id=irb>irb<a href=#irb class=anchor aria-hidden=true><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 015 5 5 5 0 01-5 5h-3m-6 0H6a5 5 0 01-5-5 5 5 0 015-5h3"/><line x1="8" y1="12" x2="16" y2="12"/></svg></a></h4><p><strong><code>irb</code></strong> is just plain simple ruby console. What I mean by that is it just
 loads your core ruby libraries. It does not care whether you have
 gemfile lying around. So if you want to add anything else, you would
-need to use <strong><code>require</code></strong>.</p>
-<p>If you have a gem installed, you can require that gem inside irb. If you
+need to use <strong><code>require</code></strong>.</p><p>If you have a gem installed, you can require that gem inside irb. If you
 used <strong><code>bundler install</code></strong>, irb may not necessarily require the same version
 of that gem, since it ignores your gemfile and thus gemfile.lock as
-well.</p>
-<h4 id="bundle-exec-irb">bundle exec irb<a href="#bundle-exec-irb" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h4>
-<p><strong><code>bundle exec irb</code></strong> comes to help, when you want to require the version of
+well.</p><h4 id=bundle-exec-irb>bundle exec irb<a href=#bundle-exec-irb class=anchor aria-hidden=true><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 015 5 5 5 0 01-5 5h-3m-6 0H6a5 5 0 01-5-5 5 5 0 015-5h3"/><line x1="8" y1="12" x2="16" y2="12"/></svg></a></h4><p><strong><code>bundle exec irb</code></strong> comes to help, when you want to require the version of
 gem specified in your gemfile, something that irb cannot. <strong><code>bundle exec irb</code></strong> allows you to load the gems that your bundler knows about and only
-the gems that bundler knows about.</p>
-<h4 id="bundle-console">bundle console<a href="#bundle-console" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h4>
-<p><strong><code>bundle console</code></strong> goes one step further <strong><code>bundle exec irb</code></strong>. The latter
+the gems that bundler knows about.</p><h4 id=bundle-console>bundle console<a href=#bundle-console class=anchor aria-hidden=true><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 015 5 5 5 0 01-5 5h-3m-6 0H6a5 5 0 01-5-5 5 5 0 015-5h3"/><line x1="8" y1="12" x2="16" y2="12"/></svg></a></h4><p><strong><code>bundle console</code></strong> goes one step further <strong><code>bundle exec irb</code></strong>. The latter
 allows you to load gems specified in gemfile, but the former already
-requires them for you</p>
-<p><em>Tip - you can require all the gems in <strong><code>bundle exec irb</code></strong> if you do
+requires them for you</p><p><em>Tip - you can require all the gems in <strong><code>bundle exec irb</code></strong> if you do
 <strong><code>Bundler.require</code></strong> inside the console. All the gems will be required,
-except for those which aren&rsquo;t marked <strong><code>required: false</code></strong></em></p>
-<h4 id="rails-console">rails console<a href="#rails-console" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h4>
-<p><code>rails console</code> manages to jump one step ahead of <code>bundle console</code> by
+except for those which aren&rsquo;t marked <strong><code>required: false</code></strong></em></p><h4 id=rails-console>rails console<a href=#rails-console class=anchor aria-hidden=true><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 015 5 5 5 0 01-5 5h-3m-6 0H6a5 5 0 01-5-5 5 5 0 015-5h3"/><line x1="8" y1="12" x2="16" y2="12"/></svg></a></h4><p><code>rails console</code> manages to jump one step ahead of <code>bundle console</code> by
 even loading the environment for you. So inside its console, you can
 play around with your rails app and your database connections work and
 everything works the way you would expect. Its a real life saver, trust
-me on that. This is most helpful when you are working on a rails app.</p>
-<p><em>Tip 2 - if you do <strong><code>require_relative config/environment.rb</code></strong> inside the
-console of <code>bundle console</code>, you would get the equivalent of <strong><code>rails console</code></strong></em></p>
-
-			</div>
-			<hr class="post-end">
-			<footer class="post-info">
-				<p>
-					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://deba.dev/tags/ruby">ruby</a></span><span class="tag"><a href="https://deba.dev/tags/rails">rails</a></span><span class="tag"><a href="https://deba.dev/tags/irb">irb</a></span><span class="tag"><a href="https://deba.dev/tags/rails-console">rails console</a></span><span class="tag"><a href="https://deba.dev/tags/software-development">software development</a></span>
-				</p>
-				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>357 Words</p>
-				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2016-06-19 01:54 &#43;0530</p>
-			</footer>
-		</article>
-		<div class="post-nav thin">
-			<a class="next-post" href="https://deba.dev/posts/2018-in-review/">
-				<span class="post-nav-label"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>&nbsp;Newer</span><br><span>2018 in Review</span>
-			</a>
-			<a class="prev-post" href="https://deba.dev/posts/continous-delivery-continous-deployment-and-continous-integration-whats-the-difference/">
-				<span class="post-nav-label">Older&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span><br><span>Continuous Delivery Continuous Deployment and Continuous Integration Whats the Difference</span>
-			</a>
-		</div>
-		<div id="comments" class="thin">
-</div>
-	</main>
-
-	<footer id="site-footer" class="section-inner thin animated fadeIn faster">
-		<p>&copy; 2021 <a href="https://deba.dev">Debashish Ghatak</a> &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></p>
-		<p>
-			Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> &#183; Theme <a href="https://github.com/Track3/hermit" target="_blank" rel="noopener">Hermit</a> &#183; <a href="https://deba.dev/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
-		</p>
-	</footer>
-
-
-
-	<script src="https://deba.dev/js/bundle.min.4a9a0ac3d2217822c7865b4161e6c2a71de1d70492264337755427898dd718f6.js" integrity="sha256-SpoKw9IheCLHhltBYebCpx3h1wSSJkM3dVQniY3XGPY=" crossorigin="anonymous"></script>
-	
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-180150258-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
-
-
-</body>
-
-</html>
+me on that. This is most helpful when you are working on a rails app.</p><p><em>Tip 2 - if you do <strong><code>require_relative config/environment.rb</code></strong> inside the
+console of <code>bundle console</code>, you would get the equivalent of <strong><code>rails console</code></strong></em></p></div><hr class=post-end><footer class=post-info><p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83.0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z"/><line x1="7" y1="7" x2="7" y2="7"/></svg><span class=tag><a href=https://deba.dev/tags/ruby>ruby</a></span><span class=tag><a href=https://deba.dev/tags/rails>rails</a></span><span class=tag><a href=https://deba.dev/tags/irb>irb</a></span><span class=tag><a href=https://deba.dev/tags/rails-console>rails console</a></span><span class=tag><a href=https://deba.dev/tags/software-development>software development</a></span></p><p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6A2 2 0 004 4v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>357 Words</p><p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>2016-06-18 20:24 +0000</p></footer></article><div class="post-nav thin"><a class=next-post href=https://deba.dev/posts/2018-in-review/><span class=post-nav-label><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>&nbsp;Newer</span><br><span>2018 in Review</span></a>
+<a class=prev-post href=https://deba.dev/posts/continous-delivery-continous-deployment-and-continous-integration-whats-the-difference/><span class=post-nav-label>Older&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span><br><span>Continuous Delivery Continuous Deployment and Continuous Integration Whats the Difference</span></a></div><div id=comments class=thin></div></main><footer id=site-footer class="section-inner thin animated fadeIn faster"><p>&copy; 2021 <a href=https://deba.dev>Debashish Ghatak</a> &#183; <a href=https://creativecommons.org/licenses/by-nc/4.0/ target=_blank rel=noopener>CC BY-NC 4.0</a></p><p>Made with <a href=https://gohugo.io/ target=_blank rel=noopener>Hugo</a> &#183; Theme <a href=https://github.com/Track3/hermit target=_blank rel=noopener>Hermit</a> &#183; <a href=https://deba.dev/posts/index.xml target=_blank title=rss><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 019 9"/><path d="M4 4a16 16 0 0116 16"/><circle cx="5" cy="19" r="1"/></svg></a></p></footer><script src=https://deba.dev/js/bundle.min.4a9a0ac3d2217822c7865b4161e6c2a71de1d70492264337755427898dd718f6.js integrity="sha256-SpoKw9IheCLHhltBYebCpx3h1wSSJkM3dVQniY3XGPY=" crossorigin=anonymous></script><script type=application/javascript>var doNotTrack=false;if(!doNotTrack){window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;ga('create','UA-180150258-1','auto');ga('send','pageview');}</script><script async src=https://www.google-analytics.com/analytics.js></script></body></html>

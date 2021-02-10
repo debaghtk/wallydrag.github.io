@@ -1,26 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>dry on Debashish Ghatak</title>
-    <link>https://deba.dev/tags/dry/</link>
-    <description>Recent content in dry on Debashish Ghatak</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Thu, 04 Jun 2015 01:50:29 +0530</lastBuildDate>
-    
-	<atom:link href="https://deba.dev/tags/dry/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Basic principles of software design: Dry</title>
-      <link>https://deba.dev/posts/dry/</link>
-      <pubDate>Thu, 04 Jun 2015 01:50:29 +0530</pubDate>
-      
-      <guid>https://deba.dev/posts/dry/</guid>
-      <description>I am thinking of doing a series of blog posts this time, that underlines the importance of some of the very basic principles of software development. I personally felt that a programmer should be introduced to these principles as early as possible. These fundamentals may seem easy on the eye, but it takes a while to implement them in your code.
-Imagine a situation. Suppose you have a dog at your house, that needs milk every morning.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>dry on Debashish Ghatak</title><link>https://deba.dev/tags/dry/</link><description>Recent content in dry on Debashish Ghatak</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 04 Jun 2015 01:50:29 +0530</lastBuildDate><atom:link href="https://deba.dev/tags/dry/index.xml" rel="self" type="application/rss+xml"/><item><title>Basic principles of software design: Dry</title><link>https://deba.dev/posts/dry/</link><pubDate>Thu, 04 Jun 2015 01:50:29 +0530</pubDate><guid>https://deba.dev/posts/dry/</guid><description>I am thinking of doing a series of blog posts this time, that underlines the importance of some of the very basic principles of software development. I personally felt that a programmer should be introduced to these principles as early as possible. These fundamentals may seem easy on the eye, but it takes a while to implement them in your code.
+Imagine a situation. Suppose you have a dog at your house, that needs milk every morning.</description></item></channel></rss>

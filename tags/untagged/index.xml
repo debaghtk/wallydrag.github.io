@@ -1,37 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>untagged on Debashish Ghatak</title>
-    <link>https://deba.dev/tags/untagged/</link>
-    <description>Recent content in untagged on Debashish Ghatak</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sat, 29 Aug 2020 20:12:13 +0530</lastBuildDate>
-    
-	<atom:link href="https://deba.dev/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>My Time at Gojek [work in progress]</title>
-      <link>https://deba.dev/posts/my-time-at-gojek/</link>
-      <pubDate>Sat, 29 Aug 2020 20:12:13 +0530</pubDate>
-      
-      <guid>https://deba.dev/posts/my-time-at-gojek/</guid>
-      <description>I need to be the dumbest guy in the room
- this is what I told myself when I set out from college and began my career. I wanted to be at a place where I am surrounded by smart people, brilliant at their job, willing to learn and willing to teach.
-Fortunately, an internship at Codeignition in the summer of 2014 gave me exactly that. I found people with proven credentials and wanting to stretch themselves even further, who not only expect nothing less from themselves but also from the people around them.</description>
-    </item>
-    
-    <item>
-      <title>2018 in Review</title>
-      <link>https://deba.dev/posts/2018-in-review/</link>
-      <pubDate>Tue, 09 Apr 2019 02:09:54 +0530</pubDate>
-      
-      <guid>https://deba.dev/posts/2018-in-review/</guid>
-      <description>Just when I was having a sound sleep, I abruptly woke up. There were fireworks outside. So many that they woke me up and I am in no way a light sleeper. It was 12:15 AM Jan 1 2018.
-I just missed new year countdown, and I was in Berlin. On a trip. All the plans of how amazing the new year would go in vain. But wait this was Berlin.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>untagged on Debashish Ghatak</title><link>https://deba.dev/tags/untagged/</link><description>Recent content in untagged on Debashish Ghatak</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 29 Aug 2020 20:12:13 +0530</lastBuildDate><atom:link href="https://deba.dev/tags/untagged/index.xml" rel="self" type="application/rss+xml"/><item><title>My Time at Gojek [work in progress]</title><link>https://deba.dev/posts/my-time-at-gojek/</link><pubDate>Sat, 29 Aug 2020 20:12:13 +0530</pubDate><guid>https://deba.dev/posts/my-time-at-gojek/</guid><description>I need to be the dumbest guy in the room
+this is what I told myself when I set out from college and began my career. I wanted to be at a place where I am surrounded by smart people, brilliant at their job, willing to learn and willing to teach.
+Fortunately, an internship at Codeignition in the summer of 2014 gave me exactly that. I found people with proven credentials and wanting to stretch themselves even further, who not only expect nothing less from themselves but also from the people around them.</description></item><item><title>2018 in Review</title><link>https://deba.dev/posts/2018-in-review/</link><pubDate>Tue, 09 Apr 2019 02:09:54 +0530</pubDate><guid>https://deba.dev/posts/2018-in-review/</guid><description>Just when I was having a sound sleep, I abruptly woke up. There were fireworks outside. So many that they woke me up and I am in no way a light sleeper. It was 12:15 AM Jan 1 2018.
+I just missed new year countdown, and I was in Berlin. On a trip. All the plans of how amazing the new year would go in vain. But wait this was Berlin.</description></item></channel></rss>
