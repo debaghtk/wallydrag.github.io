@@ -37,4 +37,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: master
           publish_dir: ./public
+          cname: deba.dev
           commit_message: ${{ github.event.head_commit.message }}
