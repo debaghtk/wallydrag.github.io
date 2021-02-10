@@ -27,11 +27,13 @@ jobs:
     
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
+     
+      - name: Build
+        run: hugo --minify
         
-      - name: Build Hugo site and deploy
-        uses: aormsby/hugo-deploy-to-pages@v2
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          hugo_publish_directory: 'public'
-          source_branch: 'source'
-          deploy_branch: 'master' 
-          commit_message: 'I like big builds, and I cannot lie.'
+          publish_branch: master
+          publish_dir: ./public
+          commit_message: ${{ github.event.head_commit.message }}
