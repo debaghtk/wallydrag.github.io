@@ -30,6 +30,7 @@ googleAnalytics = "UA-180150258-1"
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04 -0700"
+  twitterHandle = "deba_ghtk"
 
   # Metadata mostly used in document's head
   # description = ""
