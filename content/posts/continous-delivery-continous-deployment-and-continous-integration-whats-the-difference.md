@@ -51,7 +51,7 @@ the the deployment is manual. The code at any time is production ready,
 so whenever your client demands the changes in code be deployed as soon
 as possible, you are always ready. You become superman for your client. 
 
-![Continuous Delivery vs Continuous Deployment](/images/cont.jpg)
+![Continuous Delivery vs Continuous Deployment](/images/cont.jpg)\
 image credits: [Crisp's blog](http://blog.crisp.se/2013/02/05/yassalsundman/continuous-delivery-vs-continuous-deployment)
 
 
