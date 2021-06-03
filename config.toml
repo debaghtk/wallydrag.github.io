@@ -35,7 +35,7 @@ googleAnalytics = "UA-180150258-1"
   # Metadata mostly used in document's head
   # description = ""
   # images = [""]
-  themeColor = "#494f5c"
+  themeColor = "#191b1c"
 
   homeSubtitle = "I create value through tech"
   footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
