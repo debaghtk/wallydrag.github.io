@@ -1,5 +1,6 @@
 ---
 title: "My Time at Gojek"
+description: "This post shares my experience at Gojek and the wild ride. I have grown leaps and bounds at this place and I feel grateful to have been part of such a journey"
 date: 2020-08-29T20:12:13+05:30
 draft: false
 toc: false

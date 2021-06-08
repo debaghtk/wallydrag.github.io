@@ -1,5 +1,6 @@
 ---
 title: "2018 in Review"
+description: "2018 has been a crucial year for me at a personal level. It has been a wonderful journey that has changed the course of my life and has help me discover myself and made my life more satisfying. This blog post is an attempt to share those experiences with you."
 date: 2019-04-09T02:09:54+05:30
 draft: false
 toc: false

@@ -1,5 +1,6 @@
 ---
 title: "Irb vs Rails Console Whats the Difference"
+description: "irb rails console bundle exec irb bundle exec rails console may confuse a Ruby on Rails beginner. This post shall demystify these terms for you"
 date: 2016-06-19T01:54:02+05:30
 draft: false
 toc: false

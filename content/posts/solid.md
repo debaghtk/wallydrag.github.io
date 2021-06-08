@@ -1,5 +1,6 @@
 ---
 title: "SOLID"
+description: "SOLID principles of programming : take your coding to the next level"
 date: 2015-07-07T01:53:25+05:30
 draft: false
 toc: false

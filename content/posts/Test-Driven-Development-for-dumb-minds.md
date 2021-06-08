@@ -1,5 +1,6 @@
 ---
 title: "Test Driven Development for Dumb Minds"
+description: "TDD is very underrated. Everyone should write code in this manner, everyone"
 date: 2015-05-26T01:46:31+05:30
 draft: false
 toc: false

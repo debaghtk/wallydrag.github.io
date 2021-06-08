@@ -1,5 +1,6 @@
 ---
 title: "Basic principles of software design: Kiss"
+description: "Keep it simple stupid"
 date: 2015-06-08T01:52:55+05:30
 draft: false
 toc: false

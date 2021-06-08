@@ -1,5 +1,6 @@
 ---
 title: "Basic principles of software design: Dry"
+description: "DRY is a crucial design principle. I would argue while it sounds easy it is harder to practice."
 date: 2015-06-04T01:50:29+05:30
 draft: false
 toc: false

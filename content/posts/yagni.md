@@ -1,5 +1,6 @@
 ---
 title: "Basic Principles of software design: Yagni"
+description: "You ain't gonna need it"
 date: 2015-06-12T01:53:00+05:30
 draft: false
 toc: false

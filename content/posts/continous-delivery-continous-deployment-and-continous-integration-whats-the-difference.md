@@ -1,5 +1,6 @@
 ---
 title: "Continuous Delivery Continuous Deployment and Continuous Integration Whats the Difference"
+description: "CI CD Continuous Delivery Continuous Deployment Continuous Integration demystified"
 date: 2015-11-29T01:53:52+05:30
 draft: false
 toc: false
