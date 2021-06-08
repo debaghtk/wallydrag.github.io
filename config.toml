@@ -33,7 +33,7 @@ googleAnalytics = "UA-180150258-1"
   twitterHandle = "deba_ghtk"
 
   # Metadata mostly used in document's head
-  # description = ""
+  description = "debashish ghatak's personal website. Polyglot Engineer interested in infra, want to make lives happier through code."
   # images = [""]
   # themeColor = "#191b1c"
 
