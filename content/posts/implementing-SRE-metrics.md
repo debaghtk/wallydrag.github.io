@@ -26,6 +26,6 @@ Before we deep dive in the implementation details, we should get the definitions
 
 ### Implementation
 
-![Implementation of SLA SLI SLO - flow diagram](/images/SLAIO.png)\
+![Implementation of SLA SLI SLO - flow diagram](/images/SLAIO.png)
 
 In order for a proposed SLO to be useful and effective, you will need to get all stakeholders to agree to it. The product managers have to agree that this threshold is good enough for users—performance below this value is unacceptably low and worth spending engineering time to fix. The product developers need to agree that if the error budget has been exhausted, they will take some steps to reduce risk to users until the service is back in budget. The team responsible for the production environment who are tasked with defending this SLO have agreed that it is defensible without Herculean effort, excessive toil, and burnout—all of which are damaging to the long-term health of the team and service.
