@@ -3,6 +3,12 @@ title: "Getting started with SRE - implementing SLAs, SLIs and SLOs"
 description: "SRE philosophy has been developed at Google and quite a few organizations are now onboarding to these principles. This document entails our learning on how to practically get started with SRE in you organization"
 date: 2021-06-09T03:15:11+05:30
 draft: true
+tags:
+  - organization-culture
+  - SRE
+  - SLA
+  - SLI
+  - SLO
 ---
 
 [Shobhit](http://sinisterlight.com), [Prashant](https://twitter.com/prashant_mit) and I wrote this document for [observability whitepaper](https://docs.google.com/document/d/1eoxBe-tkQclixeNmKXcyCMmaF5w1Kh1rBDdLs0-cFsA/) written by CNCF’s [tag-observability group](https://github.com/cncf/tag-observability).
