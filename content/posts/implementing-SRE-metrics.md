@@ -3,6 +3,8 @@ title: "Getting started with SRE - implementing SLAs, SLIs, and SLOs"
 description: "SRE philosophy has been developed at Google and quite a few organizations are now onboarding to these principles. This document entails our learning on how to practically get started with SRE in you organization"
 date: 2021-06-09T03:15:11+05:30
 draft: false
+images:
+  - "/images/SLAIO.png"
 tags:
   - organization-culture
   - SRE

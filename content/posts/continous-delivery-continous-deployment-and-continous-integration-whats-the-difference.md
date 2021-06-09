@@ -5,6 +5,7 @@ date: 2015-11-29T01:53:52+05:30
 draft: false
 toc: false
 images:
+  - "/images/cont.jpg"
 tags: 
   - CI, CD
   - continuous integration
