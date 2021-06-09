@@ -296,7 +296,8 @@ table {
 
 #mobile-menu {
   position: fixed;
-  bottom: 4.8em;
+  // bottom: 4.8em;
+  top: 3em;
   right: 1.5em;
   display: none;
   padding: .6em 1.8em;
@@ -510,7 +511,7 @@ p.img-404 {
 }
 
 .post-header {
-  margin-top: 1.2em;
+  margin-top: 5em;
   line-height: normal;
 
   .post-meta {
@@ -520,7 +521,7 @@ p.img-404 {
   }
 
   h1 {
-    margin-top: .1em;
+    margin-top: .6em;
   }
 }
 
